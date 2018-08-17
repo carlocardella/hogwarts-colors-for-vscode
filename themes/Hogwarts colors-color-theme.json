@@ -2,16 +2,92 @@
 	"name": "Hogwarts colors",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#1e1e1e",
+		"editor.background": "#222326",
 		"editor.foreground": "#d4d4d4",
 		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBar.background": "#222326"
 	},
-	"tokenColors": [
-		{
+	"tokenColors": [{
 			"settings": {
 				"foreground": "#eeffffff",
-				"background": "#263238ff"
+				// "background": "#263238ff"
+			}
+		},
+		{
+			"name": "powershell variable member (.method, .property)",
+			"scope": "variable.other.member.powershell",
+			"settings": {
+				"foreground": "#bf8e4b"
+			}
+		},
+		{
+			"name": "powershell attributes",
+			"scope": "support.function.attribute.powershell",
+			"settings": {
+				"foreground": "#ac5249"
+			}
+		},
+		{
+			"name": "powershell storage type",
+			"scope": "storage.type.powershell",
+			"settings": {
+				"foreground": "#70a26d"
+			}
+		},
+		{
+			"name": "powershell function",
+			"scope": "support.function.powershell",
+			"settings": {
+				// "foreground": "#3185d3"
+				"foreground": "#EACE85"
+			}
+		},
+		{
+			"name": "powershell scriptblock (dash parameters)",
+			"scope": "meta.scriptblock.powershell,keyword.operator.assignment.powershell",
+			"settings": {
+				// "foreground": "#e1a6fcd0"
+				// "foreground": "#6585b4ee"
+				"foreground": "#d0c0b7"
+			}
+		},
+		{
+			"name": "powershell comment",
+			"scope": "punctuation.definition.comment.powershell,comment.line.powershell",
+			"settings": {
+				"foreground": "#827f74"
+			}
+		},
+		{
+			"name": "powershell string quote",
+			"scope": "punctuation.definition.string.begin.powershell,punctuation.definition.string.end.powershell,punctuation.definition.string.begin.powershell,punctuation.definition.string.end.powershell",
+			"settings": {
+				"foreground": "#c54790d2"
+			}
+		},
+		{
+			"name": "powershell string quoted",
+			"scope": "string.quoted.single.powershell,string.quoted.double.powershell",
+			"settings": {
+				"foreground": "#65ad6bcb"
+			}
+		},
+		{
+			"name": "powershell variable",
+			"scope": "variable.other.readwrite.powershell,punctuation.definition.variable.powershell,support.constant.automatic.powershell,constant.language.powershell",
+			"settings": {
+				// "foreground": "#bf8e4b"
+				// "foreground": "#f72222d8"
+				"foreground": "#d33d42"
+			}
+		},
+		{
+			"name": "powershell control keyword",
+			"scope": "keyword.control.powershell",
+			"settings": {
+				// "foreground": "#ccaf3c"
+				"foreground": "#bf8e4b"
 			}
 		},
 		{
@@ -21,7 +97,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
+				// "fontStyle": "italic",
 				"foreground": "#546E7A"
 			}
 		},
