@@ -1,0 +1,17 @@
+{
+    "name": "Hogwarts colors",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#222326",
+        "editor.foreground": "#d4d4d4",
+        "activityBarBadge.background": "#007acc",
+        "sideBarTitle.foreground": "#bbbbbb",
+        "sideBar.background": "#222326"
+    },
+    "tokenColors": [{
+        "settings": {
+            "foreground": "#eeffffff"
+            // "background": "#263238ff"
+        }
+    }]
+}
