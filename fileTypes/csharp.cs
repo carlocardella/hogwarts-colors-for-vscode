@@ -8,18 +8,21 @@ void class pippo()
     int numbero;
     string stringa;
 
-    // this is a comment
-    if (paperoga)
+    pippo()
     {
-        console.writeline(pluto);
-    }
-    else
-    {
-        console.writeline(paperoga);
-    }
+        // this is a comment
+        if (paperoga)
+        {
+            console.writeline(pluto);
+        }
+        else
+        {
+            console.writeline(paperoga);
+        }
 
-    for (int i = 0; i <= 10; i++)
-    {
-        return;
+        for (int i = 0; i <= 10; i++)
+        {
+            return;
+        }
     }
 }

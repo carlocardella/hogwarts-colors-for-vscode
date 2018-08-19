@@ -9,13 +9,12 @@
 		"activityBar.background": "#222326",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"sideBar.background": "#222326",
-		"editor.lineHighlightBackground": "#44330660",
-		"tab.activeBorder": "#c95b4f",
-		// "activityBarBadge.background": "#007acc",
-		// "sideBarSectionHeader.background": "#500b0b3a",
-		// "tab.activeBackground": "#500b0b3a",
-		// "badge.background": "#9e0c0cc4"
-		// "editor.selectionHighlightBackground": "#523636bd"
+		"editor.lineHighlightBackground": "#bbbbbb23",
+		"tab.activeBorder": "#ac3d30",
+		"activityBarBadge.background": "#ac3d30",
+		"editor.selectionBackground": "#bbbbbb22",
+		"editor.selectionHighlightBackground": "#cacaca23",
+
 	},
 	"tokenColors": [{
 			"settings": {
@@ -23,29 +22,36 @@
 			}
 		},
 		{
-			"scope": "comment",
+			"scope": "keyword.control",
 			"settings": {
-				"foreground": "#857c7c"
-				// "foreground": "#6b859e"
+				"foreground": "#e38634",
+			}
+		},
+		{
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				// "foreground": "#857c7c"
+				"foreground": "#8e84b8b9"
 			}
 		},
 		{
 			"scope": "constant",
 			"settings": {
-				"foreground": "#059c1cde"
+				"foreground": "#179e2bde"
 			}
 		},
 		{
 			"scope": "keyword",
 			"settings": {
-				// "foreground": "#748ac2"
 				"foreground": "#3190e9ec"
 			}
 		},
 		{
 			"scope": "string",
 			"settings": {
-				// "foreground": "#3190e9ec"
 				"foreground": "#C0C0C0"
 			}
 		},
@@ -54,8 +60,8 @@
 				"variable"
 			],
 			"settings": {
-				// "foreground": "#e24e51",
-				"foreground": "#EEBE43",
+				// "foreground": "#EEBE43"
+				"foreground": "#ffc500"
 			}
 		},
 		{
@@ -64,6 +70,21 @@
 				"foreground": "#3190e9ec"
 			}
 		},
+		{
+			"scope": "punctuation",
+			"settings": {
+				"foreground": "#a0bcec"
+			}
+		},
+		{
+			"scope": "entity.name.function.invocation",
+			"settings": {
+				"foreground": "#ac3d30"
+			}
+		},
+
+
+
 		// POWERSHELL
 		{
 			"name": "$",
@@ -73,14 +94,13 @@
 				"constant.language.powershell"
 			],
 			"settings": {
-				// "foreground": "#e24e51",
-				"foreground": "#ecc666"
+				// "foreground": "#ecc666"
+				"foreground": "#ffc500"
 			}
 		},
 		{
 			"scope": "support.function.attribute.powershell",
 			"settings": {
-				// "foreground": "#3190e9ec"
 				"foreground": "#748ac2"
 			}
 		},
@@ -93,18 +113,118 @@
 		{
 			"scope": "support.function.powershell",
 			"settings": {
-				// "foreground": "#EEBE43"
-				// "foreground": "#e24e51"
-				"foreground": "#c95b4f"
+				// "foreground": "#c0442d"
+				"foreground": "#ee4835e1"
 			}
 		},
 		{
 			"scope": "meta.scriptblock.powershell",
 			"settings": {
-				// "foreground": "#a7a7a7"
-				"foreground": "#6aa373de"
+				"foreground": "#78cf85de"
+			}
+		},
+		{
+			"scope": "entity.name.function.invocation.powershell",
+			"settings": {
+				"foreground": "#cebc82"
+			}
+		},
+		// {
+		// 	"scope": "punctuation.definition.comment.powershell",
+		// 	"settings": {
+		// 		"foreground": "#8e84b8b9"
+		// 	}
+		// },
+
+
+
+		// JSON
+		{
+			"scope": "support.type.property-name.json",
+			"settings": {
+				"foreground": "#ff626ad8"
+			}
+		},
+		{
+			"scope": "string.quoted.double.json",
+			"settings": {
+				"foreground": "#e5ba53"
+			}
+		},
+
+
+		// XML
+		{
+			"scope": "entity.name.tag.localname.xml",
+			"settings": {
+				"foreground": "#ff626ad8"
+			}
+		},
+		{
+			"scope": "entity.other.attribute-name.localname.xml",
+			"settings": {
+				"foreground": "#e5ba53"
+			}
+		},
+		{
+			"scope": "string.quoted.double.xml",
+			"settings": {
+				"foreground": "#96c54ae8"
+			}
+		},
+
+
+		// C SHARP
+		{
+			"scope": [
+				"storage.modifier.cs",
+				"keyword.type.cs"
+			],
+			"settings": {
+				"foreground": "#ff626ad8",
+			}
+		},
+		{
+			"scope": "variable.other.object.cs",
+			"settings": {
+				"foreground": "#dd7181e7",
+			}
+		},
+		{
+			"scope": "entity.name.function.cs",
+			"settings": {
+				"foreground": "#d4bb66",
+			}
+		},
+		{
+			"scope": "entity.name.type.namespace.cs",
+			"settings": {
+				"foreground": "#ebc0a4"
+			}
+		},
+		{
+			"scope": "entity.name.type.class.cs",
+			"settings": {
+				"foreground": "#50a154",
+			}
+		},
+		{
+			"scope": "entity.name.variable.field.cs",
+			"settings": {
+				// "foreground": "#EEBE43"
+				"foreground": "#ffc500"
 			}
 		}
+
+		// {
+		// 	"scope": "punctuation.definition.comment.cs",
+		// 	"settings": {
+		// 		"foreground": "#8e84b8b9"
+		// 	}
+		// }
+
+
+
 		// {
 		// 	"name": "powershell variable member (.method, .property)",
 		// 	"scope": "variable.other.member.powershell",
