@@ -21,6 +21,87 @@
 				"foreground": "#eeffffff"
 			}
 		},
+		{
+			"scope": "comment",
+			"settings": {
+				"foreground": "#857c7c"
+			}
+		},
+		{
+			"scope": "constant",
+			"settings": {
+				"foreground": "#059c1cde"
+			}
+		},
+		{
+			"scope": "keyword",
+			"settings": {
+				// "foreground": "#748ac2"
+				"foreground": "#3190e9ec"
+			}
+		},
+		{
+			"scope": "string",
+			"settings": {
+				// "foreground": "#3190e9ec"
+				"foreground": "#C0C0C0"
+			}
+		},
+		{
+			"scope": [
+				"variable"
+			],
+			"settings": {
+				// "foreground": "#e24e51",
+				"foreground": "#EEBE43",
+			}
+		},
+		{
+			"scope": "storage",
+			"settings": {
+				"foreground": "#3190e9ec"
+			}
+		},
+		// POWERSHELL
+		{
+			"name": "$",
+			"scope": [
+				"variable.other.readwrite.powershell",
+				"keyword.other.variable.definition.powershell",
+				"constant.language.powershell"
+			],
+			"settings": {
+				// "foreground": "#e24e51",
+				"foreground": "#ecc666"
+			}
+		},
+		{
+			"scope": "support.function.attribute.powershell",
+			"settings": {
+				// "foreground": "#3190e9ec"
+				"foreground": "#748ac2"
+			}
+		},
+		{
+			"scope": "storage.type.powershell",
+			"settings": {
+				"foreground": "#87AEA8"
+			}
+		},
+		{
+			"scope": "support.function.powershell",
+			"settings": {
+				// "foreground": "#EEBE43"
+				"foreground": "#e24e51"
+			}
+		},
+		{
+			"scope": "meta.scriptblock.powershell",
+			"settings": {
+				// "foreground": "#a7a7a7"
+				"foreground": "#6aa373de"
+			}
+		}
 		// {
 		// 	"name": "powershell variable member (.method, .property)",
 		// 	"scope": "variable.other.member.powershell",

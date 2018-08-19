@@ -1,5 +1,5 @@
 
-[CmdletBinding()]
+[CmdletBinding(SupportsShouldProcess, ConfirmImpact = 'High')]
 param (
     [parameter(Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName)]
     [ValidateScript( {Test-Path $_})]

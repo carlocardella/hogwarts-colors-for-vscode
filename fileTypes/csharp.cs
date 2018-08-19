@@ -3,8 +3,12 @@ using System;
 void class pippo()
 {
     private string pluto;
-    bool paperoga;  
+    bool paperoga;
+    const gastone;
+    int numbero;
+    string stringa;
 
+    // this is a comment
     if (paperoga)
     {
         console.writeline(pluto);
