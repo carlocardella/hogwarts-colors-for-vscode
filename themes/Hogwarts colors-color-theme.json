@@ -7,12 +7,13 @@
 		"statusBar.background": "#222326",
 		"titleBar.activeBackground": "#222326",
 		"activityBar.background": "#222326",
-		// "activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb",
-		// "sideBarSectionHeader.background": "#500b0b3a",
-		// "tab.activeBackground": "#500b0b3a",
 		"sideBar.background": "#222326",
 		"editor.lineHighlightBackground": "#44330660",
+		"tab.activeBorder": "#c95b4f",
+		// "activityBarBadge.background": "#007acc",
+		// "sideBarSectionHeader.background": "#500b0b3a",
+		// "tab.activeBackground": "#500b0b3a",
 		// "badge.background": "#9e0c0cc4"
 		// "editor.selectionHighlightBackground": "#523636bd"
 	},
@@ -93,7 +94,8 @@
 			"scope": "support.function.powershell",
 			"settings": {
 				// "foreground": "#EEBE43"
-				"foreground": "#e24e51"
+				// "foreground": "#e24e51"
+				"foreground": "#c95b4f"
 			}
 		},
 		{
