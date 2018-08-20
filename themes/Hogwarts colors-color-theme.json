@@ -340,130 +340,51 @@
 			"settings": {
 				"foreground": "#a0a0a0da",
 			}
-		}
+		},
 
 
+
+		// JAVASCREEPT
+		{
+			"scope": "storage.type.js",
+			"settings": {
+				"foreground": "#9e6ac4",
+			}
+		},
+		{
+			"scope": [
+				"support.function.js",
+				"support.class.console.js"
+			],
+			"settings": {
+				"foreground": "#ff626ad8",
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function.js",
+				"Support.variable.*.js"
+			],
+			"settings": {
+				"foreground": "#d4bb66",
+			}
+		},
+		{
+			"scope": "support.type.object.module.js",
+			"settings": {
+				"foreground": "#c2e58b",
+			}
+		},
 		// {
-		// 	"name": "powershell variable member (.method, .property)",
-		// 	"scope": "variable.other.member.powershell",
+		// 	"scope": "support.variable.object.process.js",
 		// 	"settings": {
-		// 		// "foreground": "#bf8e4b"
-		// 		"foreground": "#6561dbe5"
+		// 		"foreground": "#c96b53",
 		// 	}
-		// },
-		// {
-		// 	"name": "powershell attributes",
-		// 	"scope": [
-		// 		// "support.function.attribute.powershell",
-		// 		// "keyword.control.powershell"
-		// 		"support.function.attribute",
-		// 		"keyword.control",
-		// 		"storage.modifier",
-		// 		"keyword.type"
-		// 	],
-		// 	"settings": {
-		// 		// "foreground": "#ac5249"
-		// 		"foreground": "#c18b62"
-		// 	}
-		// },
-		// {
-		// 	"name": "powershell storage type",
-		// 	"scope": "storage.type.powershell",
-		// 	"settings": {
-		// 		"foreground": "#50a154"
-		// 	}
-		// },
-		// {
-		// 	"name": "powershell variable parameter attribute",
-		// 	"scope": "variable.parameter.attribute.powershell",
-		// 	"settings": {
-		// 		"foreground": "#82ced3b0"
-		// 	}
-		// },
-		// {
-		// 	"name": "powershell function",
-		// 	"scope": [
-		// 		"support.function.powershell"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#f6be4d"
-		// 	}
-		// },
-		// {
-		// 	"name": "powershell scriptblock (dash parameters)",
-		// 	"scope": [
-		// 		"meta.scriptblock.powershell",
-		// 		"keyword.operator.assignment.powershell"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#d0c0b7"
-		// 	}
-		// },
-		// {
-		// 	"name": "powershell comment",
-		// 	"scope": [
-		// 		"punctuation.definition.comment.powershell",
-		// 		"comment.line.powershell"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#827f74"
-		// 	}
-		// },
-		// {
-		// 	"name": "powershell string quote",
-		// 	"scope": [
-		// 		"punctuation.definition.string.begin.powershell",
-		// 		"punctuation.definition.string.end.powershell",
-		// 		"punctuation.definition.string.begin.powershell",
-		// 		"punctuation.definition.string.end.powershell"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#c54790d2"
-		// 	}
-		// },
-		// {
-		// 	"name": "powershell string quoted",
-		// 	"scope": [
-		// 		"string.quoted.single.powershell",
-		// 		"string.quoted.double.powershell"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#97a449"
-		// 	}
-		// },
-		// {
-		// 	"name": "powershell variable",
-		// 	"scope": [
-		// 		"variable.other.readwrite.powershell",
-		// 		"punctuation.definition.variable.powershell",
-		// 		"support.constant.automatic.powershell",
-		// 		"constant.language.powershell",
-		// 		"keyword.other.variable.definition.powershell"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#d62c3aef"
-		// 	}
-		// },
-		// {
-		// 	"name": "Comment",
-		// 	"scope": [
-		// 		"comment",
-		// 		"punctuation.definition.comment"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#658594de"
-		// 	}
-		// },
-		// {
-		// 	"name": "Variables",
-		// 	"scope": [
-		// 		"variable",
-		// 		"string constant.other.placeholder"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#bcf8f8c7"
-		// 	}
-		// },
+		// }
+
+
+
+
 		// {
 		// 	"name": "Colors",
 		// 	"scope": [
@@ -481,18 +402,6 @@
 		// 	],
 		// 	"settings": {
 		// 		"foreground": "#FF5370"
-		// 	}
-		// },
-		// {
-		// 	"name": "Keyword, Storage",
-		// 	"scope": [
-		// 		// "keyword",
-		// 		"storage.type",
-		// 		// "storage.modifier"
-		// 		"keyword.other.using.cs"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#C792EA"
 		// 	}
 		// },
 		// {
