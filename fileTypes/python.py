@@ -13,6 +13,7 @@ def exc1():
 def exc2():
     import sys
 
+    # this is a comment
     try:
         f = open('fibonacci.py')
         s = f.readline()

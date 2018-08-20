@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "C:\\Users\\Carlo\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe"
+    "markdown.styles": [
+        "themes\\markdownStyle.css"
+    ]
 }

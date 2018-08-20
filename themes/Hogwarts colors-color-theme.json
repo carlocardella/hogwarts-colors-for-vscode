@@ -12,9 +12,9 @@
 		"editor.lineHighlightBackground": "#bbbbbb23",
 		"tab.activeBorder": "#ac3d30",
 		"activityBarBadge.background": "#ac3d30",
+		"editorCursor.foreground": "#ac3d30",
 		"editor.selectionBackground": "#bbbbbb22",
 		"editor.selectionHighlightBackground": "#cacaca23",
-
 	},
 	"tokenColors": [{
 			"settings": {
@@ -33,7 +33,6 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				// "foreground": "#857c7c"
 				"foreground": "#8e84b8b9"
 			}
 		},
@@ -60,7 +59,6 @@
 				"variable"
 			],
 			"settings": {
-				// "foreground": "#EEBE43"
 				"foreground": "#ffc500"
 			}
 		},
@@ -82,6 +80,12 @@
 				"foreground": "#ac3d30"
 			}
 		},
+		{
+			"scope": "support.type.exception",
+			"settings": {
+				"foreground": "#ff6a6a85",
+			}
+		},
 
 
 
@@ -94,7 +98,6 @@
 				"constant.language.powershell"
 			],
 			"settings": {
-				// "foreground": "#ecc666"
 				"foreground": "#ffc500"
 			}
 		},
@@ -113,7 +116,6 @@
 		{
 			"scope": "support.function.powershell",
 			"settings": {
-				// "foreground": "#c0442d"
 				"foreground": "#ee4835e1"
 			}
 		},
@@ -129,12 +131,6 @@
 				"foreground": "#cebc82"
 			}
 		},
-		// {
-		// 	"scope": "punctuation.definition.comment.powershell",
-		// 	"settings": {
-		// 		"foreground": "#8e84b8b9"
-		// 	}
-		// },
 
 
 
@@ -151,6 +147,7 @@
 				"foreground": "#e5ba53"
 			}
 		},
+
 
 
 		// XML
@@ -174,14 +171,22 @@
 		},
 
 
+
 		// C SHARP
 		{
 			"scope": [
-				"storage.modifier.cs",
 				"keyword.type.cs"
 			],
 			"settings": {
 				"foreground": "#ff626ad8",
+			}
+		},
+		{
+			"scope": [
+				"storage.modifier.cs",
+			],
+			"settings": {
+				"foreground": "#9e6ac4",
 			}
 		},
 		{
@@ -211,18 +216,133 @@
 		{
 			"scope": "entity.name.variable.field.cs",
 			"settings": {
-				// "foreground": "#EEBE43"
 				"foreground": "#ffc500"
 			}
-		}
+		},
 
+
+
+		// PYTHON
+		{
+			"scope": "entity.name.function.python",
+			"settings": {
+				"foreground": "#ffc500",
+			}
+		},
+		{
+			"scope": "support.function.builtin.python",
+			"settings": {
+				"foreground": "#dd7181e7",
+			}
+		},
+		{
+			"scope": "support.type.python",
+			"settings": {
+				"foreground": "#8eaaa2",
+			}
+		},
+		{
+			"scope": "meta.function-call.generic.python",
+			"settings": {
+				"foreground": "#d4bb66",
+			}
+		},
+		{
+			"scope": "meta.function-call.arguments.python",
+			"settings": {
+				"foreground": "#aaaaaa",
+			}
+		},
+
+
+
+		// MARKDOWN
 		// {
-		// 	"scope": "punctuation.definition.comment.cs",
+		// 	"name": "Markdown - Link",
+		// 	"scope": [
+		// 		"string.other.link.title.markdown"
+		// 	],
 		// 	"settings": {
-		// 		"foreground": "#8e84b8b9"
+		// 		"foreground": "#82AAFF"
 		// 	}
-		// }
-
+		// },
+		// {
+		// 	"name": "Markdown - Link Description",
+		// 	"scope": [
+		// 		"string.other.link.description.title.markdown"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#C792EA"
+		// 	}
+		// },
+		// {
+		// 	"name": "Markdown - Heading",
+		// 	"scope": [
+		// 		"markdown.heading",
+		// 		"markup.heading | markup.heading entity.name",
+		// 		"markup.heading.markdown punctuation.definition.heading.markdown"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#C3E88D"
+		// 	}
+		// },
+		{
+			"scope": "heading.1.markdown",
+			"settings": {
+				"foreground": "#ff626ad8",
+			}
+		},
+		{
+			"scope": "heading.2.markdown",
+			"settings": {
+				"foreground": "#ffc500",
+			}
+		},
+		{
+			"scope": "heading.3.markdown",
+			"settings": {
+				"foreground": "#a9eab2",
+			}
+		},
+		{
+			"scope": "heading.4.markdown",
+			"settings": {
+				"foreground": "#86669c",
+			}
+		},
+		{
+			"scope": "heading.5.markdown",
+			"settings": {
+				"foreground": "#ebc0a4",
+			}
+		},
+		{
+			"scope": "meta.paragraph.markdown",
+			"settings": {
+				"foreground": "#C0C0C0",
+			}
+		},
+		// {
+		// 	"scope": "beginning.punctuation.definition.list.markdown",
+		// 	"settings": {
+		// 		"foreground": "#50a154",
+		// 	}
+		// },
+		{
+			"scope": [
+				"string.other.link.title.markdown",
+				"markup.underline.link.markdown"
+			],
+			"settings": {
+				"foreground": "#3190e9ec"
+			}
+		},
+		{
+			"scope": "markup.fenced_code.block.markdown",
+			"settings": {
+				"foreground": "#a0a0a0da",
+			}
+		}
 
 
 		// {

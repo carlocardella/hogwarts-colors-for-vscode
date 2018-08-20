@@ -11,7 +11,7 @@ param (
     [string]$OutputFolder,
 
     [parameter()]
-    [string]$TemplateRegion, 
+    [string]$TemplateRegion,
 
     [parameter()]
     [string]$NewRegion,
@@ -21,14 +21,14 @@ param (
     [string]$SubscriptionId,
 
     [parameter()]
-    [switch]$Force, 
+    [switch]$Force,
 
     [parameter()]
     [switch]$Service,
-    
+
     [parameter()]
     [switch]$StorageAccount,
-    
+
     [parameter()]
     [switch]$TrafficManager,
 
@@ -61,7 +61,7 @@ process {
         $newServiceXml = Join-Path -Path $OutputFolder -ChildPath $destinationSXml
         Copy-Item -Path $sxml -Destination $newServiceXml -Force:$Force -ErrorAction Inquire
         Set-ItemProperty -Path $newServiceXml -Name 'IsReadOnly' -Value $false -ErrorAction Inquire -Force
-        
+
         # update the region acronym
         Write-Verbose -Message "Updating Region acronym"
         Update-StringInFile -FilePath $newServiceXml -OldString $TemplateRegion.ToLower() -NewString $NewRegion.ToLower() -MatchCase -Force:$Force
@@ -71,7 +71,7 @@ process {
         # update resource locatoins
         Write-Verbose -Message "Updating location name"
         Update-StringInFile -FilePath $newServiceXml -OldString $templateLocation.ExtendedName -NewString $newLocation.ExtendedName -MatchCase -Force:$Force
-        
+
         # open the service xml and replate some known values with string placeholders
         $serviceXmlFile = $null
         [xml]$serviceXmlFile = Get-Content -Path $newServiceXml -ErrorAction Inquire
@@ -92,7 +92,7 @@ process {
         }
 
         $stashClient = Join-Path -Path $OutputFolder -ChildPath 'stashclient.txt'
-        
+
         # update the subscription id
         Write-Verbose -Message "Updating Subscription Id"
         $serviceXmlFile.Service.Resources.AzureSubscriptions.AzureSubscription.SubscriptionId = $SubscriptionId
@@ -106,7 +106,7 @@ process {
 
 
         #############################################################
-        # STORAGE ACCOUNTS  
+        # STORAGE ACCOUNTS
         if ($StorageAccount) {
             $storageAccounts = $serviceXmlFile.Service.Resources.AzureSubscriptions.AzureSubscription.AzureStorageAccounts.AzureStorageAccount
             foreach ($sa in $storageAccounts) {
@@ -118,10 +118,10 @@ process {
                     $secretName = $null
                     $secretName = Get-SecretPathFromServiceXmlKeyword -Keyword $sa.Key
                     .\Push-OaaSSecretToProdStore.ps1 -SecretType StorageAccount -SecretName $secretName -Account $saKeys.StorageAccountName -Key1 $redisCacheRG.PrimaryKey -Key2 $redisCacheKey.SecondaryKey -KeyVault -SecretStore -InformationAction Continue
-                    
+
                     continue
                 }
-           
+
                 # cosmos
                 if (($sa.Name -contains 'cosmos') -or ($sa.Name -contains 'sb')) {
                     New-AzureRmResourceGroup -Name $sa.Name -Location $newLocation.ExtendedName | Out-Null
@@ -137,9 +137,9 @@ process {
                     $sbNamespace = New-OaaSServiceBusNamespace -NamespaceName $sa.Name -Location $newLocation.ExtendedName
                     $secretName = $null
                     $secretName = Get-SecretPathFromServiceXmlKeyword -Keyword $sa.Key
-                    ## TODO: is DefaultKey used for all Service Bus secrets? 
+                    ## TODO: is DefaultKey used for all Service Bus secrets?
                     .\Push-OaaSSecretToProdStore.ps1 -SecretType StorageAccount -SecretName $secretName -Account $sbNamespace.Name -Key1 $sbNamespace.DefaultKey -KeyVault -SecretStore -InformationAction Continue
-                    
+
                     continue
                 }
 
@@ -155,7 +155,7 @@ process {
                     $secretName = $null
                     $secretName = Get-SecretPathFromServiceXmlKeyword -Keyword $sa.Key
                     .\Push-OaaSSecretToProdStore.ps1 -SecretType StorageAccount -SecretName $secretName -Account 'ScriptHost.HmacSignature.EncodedPrimarySecret' -Key1 $hmacSignaturePrimary -KeyVault -SecretStore -InformationAction Continue
-                    
+
                     # ScriptHost.HmacSignature.EncodedSecondarySecret
                     $hmacSignatureSecondary = New-HmacSignatureSecret
                     $secretName = $null
@@ -190,7 +190,7 @@ process {
                     Write-Warning -Message "Please review existing Sql Server configuration for Subscription $((Get-AzureSubscription -Current).SubscriptionId)"
                     break
                 }
-            
+
                 $sqlServers = $null
                 $sqlServers = Get-AzureSqlDatabaseServer
                 if ($sqlServers.Count -gt 0) {
@@ -198,13 +198,13 @@ process {
                     Write-Warning -Message "Please review existing Sql Server configuration for Subscription $((Get-AzureSubscription -Current).SubscriptionId)"
                     break
                 }
-            
+
 
                 $database = $sqlDatabases.Where( {$_.ID -eq 'SqlDatabase'})
                 $username = @($database.Username -split '@')[0]
                 $password = $null
                 $password = New-Password -Length 20 -NumberOfNonAlphanumericCharacters 5
-                
+
                 if ($dsc) {
                     New-OaaSSqlDatabase -AdministratorLogin $username -Password (ConvertTo-SecureString -AsPlainText -Force $password) -DatabaseName $database -Location $newLocation.ExtendedName -LocationDR $newLocation.DR -ServiceObjective P2 -CreateSecondaryDR
 
@@ -219,12 +219,12 @@ process {
                     $password = New-Password -Length 20 -NumberOfNonAlphanumericCharacters 5
                     Set-OaaSSqlQuery -Geo $NewRegion -DSC:$dsc -SqlCommand "CREATE LOGIN ROViewsMaster WITH password='$password'"
                     .\Push-OaaSSecretToProdStore.ps1 -SecretStore -KeyVault -SecretType Password -SecretName "CDM/OAAS/OaaSProd$($NewRegion)s1/Sql/ROViewsMaster" -Password "Server=tcp:$($sqlServerReplicationDetails.SourceServerName).database.windows.net,1433;Database=master;User ID=ROViewsMaster@$($sqlServerReplicationDetails.SourceServerName);Password=$password;Trusted_Connection=False;Encrypt=True;"
-                
+
                     Write-Verbose -Message "ROViewsSQL on master"
                     $password = New-Password -Length 20 -NumberOfNonAlphanumericCharacters 5
                     Set-OaaSSqlQuery -Geo $NewRegion -DSC:$dsc -SqlCommand "CREATE LOGIN ROViewsSQL WITH password='$password'"
                     .\Push-OaaSSecretToProdStore.ps1 -SecretStore -KeyVault -SecretType Password -SecretName "CDM/OAAS/OaaSProd$($NewRegion)s1/Sql/ROViewsSQL" -Password "Server=tcp:$($sqlServerReplicationDetails.SourceServerName).database.windows.net,1433;Database=$($sqlServerReplicationDetails.SourceDatabaseName);User ID=ROViewsSQL@$($sqlServerReplicationDetails.SourceServerName);Password=$password;Trusted_Connection=False;Encrypt=True;"
-                
+
                     # grant permission
                     Write-Verbose -Message "Creating logins on $($sqlServerReplicationDetails.SourceServerName)"
                     Set-OaaSSqlQuery -Geo $NewRegion -DSC:$dsc -SqlCommand "CREATE USER ROViewsSQL FROM LOGIN ROViewsSQL"
@@ -232,7 +232,7 @@ process {
                     Set-OaaSSqlQuery -Geo $NewRegion -DSC:$dsc "GRANT VIEW DATABASE STATE TO ROViewsSQL"
                 }
 
-                # validate Sql replication 
+                # validate Sql replication
                 $sqlServerReplicationDetails = $null
                 $sqlServerReplicationDetails = Get-AzureSqlDatabaseReplicationDetail
                 if ($dsc) {
@@ -242,19 +242,19 @@ process {
                     else {
                         # update the service xml
                         Write-Verbose -Message 'Updating Sql Server details in service xml'
-                        
+
                         # sqlDatabase
                         # $sqlDatabases = $null
                         # $sqlDatabase = $sqlDatabases.Where( {$_.ID -eq 'SqlDatabase'})
                         # $sqlDatabase.Server = "$($sqlServerReplicationDetails.SourceServerName).database.windows.net"
                         # $sqlDatabase.Username = "$($username)@$($sqlServerReplicationDetails.SourceServerName)"
-                        
+
                         # SecondarySqlDatabase
                         $secondarySqlDatabase = $null
                         $secondarySqlDatabase = $sqlDatabases.Where( {$_.ID -eq 'SecondarySqlDatabase'})
                         $secondarySqlDatabase.Server = "$($sqlServerReplicationDetails.DestinationServerName).database.windows.net"
                         $secondarySqlDatabase.Username = "$($username)@$($sqlServerReplicationDetails.DestinationServerName)"
-                        
+
                         $updateServiceXml = $true
                     }
                 }
@@ -266,29 +266,29 @@ process {
                         ## TODO:
                         # update the service xml
                         Write-Verbose -Message 'Updating Sql Server details in service xml'
-                        
+
                         # # sqlDatabase
                         # $sqlDatabase = $null
                         # $sqlDatabase = $sqlDatabases.Where( {$_.ID -eq 'SqlDatabase'})
                         # $sqlDatabase.Server = "$($sqlServerReplicationDetails.SourceServerName).database.windows.net"
                         # $sqlDatabase.Username = "$($username)@$($sqlServerReplicationDetails.SourceServerName)"
-                        
+
                         # SecondarySqlDatabase
                         $secondarySqlDatabase = $null
                         $secondarySqlDatabase = $sqlDatabases.Where( {$_.ID -eq 'SecondarySqlDatabase'})
                         $secondarySqlDatabase.Server = "$($sqlServerReplicationDetails.Where({$_.IsLocal -eq 'True'}).DestinationServerName).database.windows.net"
                         $secondarySqlDatabase.Username = "$($username)@$($sqlServerReplicationDetails.Where({$_.IsLocal -eq 'True'}).DestinationServerName)"
-                        
+
                         # SecondarySqlDatabase
                         $secondaryDrSqlDatabase = $null
                         $secondaryDrSqlDatabase = $sqlDatabases.Where( {$_.ID -eq 'secondaryDrSqlDatabase'})
                         $secondaryDrSqlDatabase.Server = "$($sqlServerReplicationDetails.Where({$_.IsLocal -eq 'False'}).DestinationServerName).database.windows.net"
                         $secondaryDrSqlDatabase.Username = "$($username)@$($sqlServerReplicationDetails.Where({$_.IsLocal -eq 'True'}).DestinationServerName)"
-                        
+
                         $updateServiceXml = $true
                     }
                 }
-                
+
                 ## export account and password to secret store / keyvault
                 if ($sqlServerReplicationDetails -ne $null) {
                     $secretName = $null
@@ -298,8 +298,8 @@ process {
                 else {
                     Write-Error -Message "Sql database replication error"
                 }
-                
-                
+
+
                 ## add sql vip
                 $armSqlServers = Get-AzureRmSqlServer
                 $sqlVipName = $null
@@ -312,7 +312,7 @@ process {
                 $primarySqlServer = $armSqlServers | Where-Object ServerName -eq $($sqlServerReplicationDetails.SourceServerName)
                 $partnerSqlServer = $armSqlServers | Where-Object ServerName -eq $($sqlServerReplicationDetails.DestinationServerName) | Where-Object $sqlServerReplicationDetails.IsLocal -eq $false
                 $primarySqlServer | New-AzureRmSqlServerDisasterRecoveryConfiguration -PartnerServerName $partnerSqlServer.ServerName -PartnerResourceGroupName $partnerSqlServer.ResourceGroupName -VirtualEndpointName $sqlVipName -FailoverPolicy "UserControlled"
-                
+
                 # sqlDatabase
                 $sqlDatabase = $null
                 $sqlDatabase = $sqlDatabases.Where( {$_.ID -eq 'SqlDatabase'})
@@ -329,7 +329,7 @@ process {
                 # allow connections from Azure services
                 Get-AzureSqlDatabaseServer | New-AzureSqlDatabaseServerFirewallRule -AllowAllAzureServices
                 $msProxies | ForEach-Object {
-                    New-AzureSqlDatabaseServerFirewallRule -ServerName $($sqlServerReplicationDetails.SourceServerName) -RuleName "ms_proxy_$((Get-Date).Ticks)" -StartIpAddress $_.StartIpAddress -EndIpAddress $_.EndIpAddress 
+                    New-AzureSqlDatabaseServerFirewallRule -ServerName $($sqlServerReplicationDetails.SourceServerName) -RuleName "ms_proxy_$((Get-Date).Ticks)" -StartIpAddress $_.StartIpAddress -EndIpAddress $_.EndIpAddress
                 }
             }
         }
@@ -369,9 +369,9 @@ process {
                 JRDS { $tmProfileName = "$($newLocation.ShortName.ToLower())-jobruntimedata-prod-arm-1".ToLower() }
                 WebService { $tmProfileName = "$($newLocation.ShortName.ToLower())-oaaswebservice-prod-arm-1".ToLower() }
                 # Portal { $tmProfileName = 'portals2.azure-automation'.ToLower() }
-                Container { 
-                    $tmProfileName += "$($newLocation.ShortName.ToLower())-containerservice-prod-1".ToLower() 
-                    $tmProfileName += "$($newLocation.ShortName.ToLower())-containerservice-test-1".ToLower() 
+                Container {
+                    $tmProfileName += "$($newLocation.ShortName.ToLower())-containerservice-prod-1".ToLower()
+                    $tmProfileName += "$($newLocation.ShortName.ToLower())-containerservice-test-1".ToLower()
                 }
                 # Default { Write-Error -Message "$microservice not recognized" }
                 Default {  }
@@ -395,7 +395,7 @@ process {
         }
 
 
-        
+
         #############################################################
         ## CERTIFICATES
         if ($Certificate) {
@@ -427,11 +427,11 @@ process {
                 Write-Output -InputObject "Secret Store commands saved to $stashClient"
             }
         }
-        
 
 
 
-        
+
+
         #############################################################
         # UPDATE THE SERVICE XML
         if ($updateServiceXml) {
