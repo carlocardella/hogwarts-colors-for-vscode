@@ -178,7 +178,10 @@
 			}
 		},
 		{
-			"scope": "entity.other.attribute-name.localname.xml",
+			"scope": [
+				"entity.other.attribute-name.localname.xml",
+				"entity.other.attribute-name.xml"
+			],
 			"settings": {
 				"foreground": "#e5ba53"
 			}
@@ -187,6 +190,16 @@
 			"scope": "string.quoted.double.xml",
 			"settings": {
 				"foreground": "#96c54ae8"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.tag.namespace.xml",
+				"entity.name.tag.xml",
+				"entity.other.attribute-name.namespace.xml"
+			],
+			"settings": {
+				"foreground": "#e38634",
 			}
 		},
 

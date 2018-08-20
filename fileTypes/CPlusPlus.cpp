@@ -1,1 +1,25 @@
-/* File Format Commons cpp 0110011001101001011011000110010100100000011001100111111011100100110110101100001011101000010000001100011011011110110110101101101011011110110111001110011 */
+// reading an entire binary file
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main () {
+  streampos size;
+  char * memblock;
+
+  ifstream file ("example.bin", ios::in|ios::binary|ios::ate);
+  if (file.is_open())
+  {
+    size = file.tellg();
+    memblock = new char [size];
+    file.seekg (0, ios::beg);
+    file.read (memblock, size);
+    file.close();
+
+    cout << "the entire file content is in memory";
+
+    delete[] memblock;
+  }
+  else cout << "Unable to open file";
+  return 0;
+}
