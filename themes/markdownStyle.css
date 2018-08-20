@@ -21,3 +21,12 @@ h5 {
 th {
     color: #e38634
 }
+
+p {
+    color: #C0C0C0
+}
+
+div {
+    font-family: 'consolas';
+    font-size: small
+}

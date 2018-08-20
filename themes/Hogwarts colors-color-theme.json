@@ -257,35 +257,6 @@
 
 
 		// MARKDOWN
-		// {
-		// 	"name": "Markdown - Link",
-		// 	"scope": [
-		// 		"string.other.link.title.markdown"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#82AAFF"
-		// 	}
-		// },
-		// {
-		// 	"name": "Markdown - Link Description",
-		// 	"scope": [
-		// 		"string.other.link.description.title.markdown"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#C792EA"
-		// 	}
-		// },
-		// {
-		// 	"name": "Markdown - Heading",
-		// 	"scope": [
-		// 		"markdown.heading",
-		// 		"markup.heading | markup.heading entity.name",
-		// 		"markup.heading.markdown punctuation.definition.heading.markdown"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#C3E88D"
-		// 	}
-		// },
 		{
 			"scope": "heading.1.markdown",
 			"settings": {
@@ -322,12 +293,6 @@
 				"foreground": "#C0C0C0",
 			}
 		},
-		// {
-		// 	"scope": "beginning.punctuation.definition.list.markdown",
-		// 	"settings": {
-		// 		"foreground": "#50a154",
-		// 	}
-		// },
 		{
 			"scope": [
 				"string.other.link.title.markdown",
