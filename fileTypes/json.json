@@ -1,17 +1,32 @@
 {
-    "name": "Hogwarts colors",
-    "type": "dark",
-    "colors": {
-        "editor.background": "#222326",
-        "editor.foreground": "#d4d4d4",
-        "activityBarBadge.background": "#007acc",
-        "sideBarTitle.foreground": "#bbbbbb",
-        "sideBar.background": "#222326"
-    },
-    "tokenColors": [{
-        "settings": {
-            "foreground": "#eeffffff"
-            // "background": "#263238ff"
+    // this is a comment
+    "colorsArray": [{
+            "colorName": "red",
+            "hexValue": "#f00"
+        },
+        {
+            "colorName": "green",
+            "hexValue": "#0f0"
+        },
+        {
+            "colorName": "blue",
+            "hexValue": "#00f"
+        },
+        {
+            "colorName": "cyan",
+            "hexValue": "#0ff"
+        },
+        {
+            "colorName": "magenta",
+            "hexValue": "#f0f"
+        },
+        {
+            "colorName": "yellow",
+            "hexValue": "#ff0"
+        },
+        {
+            "colorName": "black",
+            "hexValue": "#000"
         }
-    }]
+    ]
 }
