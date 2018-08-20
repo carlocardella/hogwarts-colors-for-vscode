@@ -348,7 +348,6 @@
 		{
 			"scope": "storage.type.js",
 			"settings": {
-				// "foreground": "#9e6ac4",
 				"foreground": "#db6657",
 			}
 		},
@@ -359,7 +358,6 @@
 				"meta.object-literal.key.js",
 			],
 			"settings": {
-				// "foreground": "#ff626ad8",
 				"foreground": "#da2c2c",
 			}
 		},
@@ -383,6 +381,65 @@
 				"foreground": "#c2e58b",
 			}
 		},
+
+
+
+		// TYPESCRIPT
+		{
+			"scope": [
+				"storage.modifier.ts"
+			],
+			"settings": {
+				"foreground": "#db6657",
+			}
+		},
+		{
+			"scope": [
+				"support.type.primitive.ts",
+				"entity.name.type.ts"
+			],
+			"settings": {
+				"foreground": "#78cf85de",
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.class.ts",
+				"variable.other.object.ts",
+				"entity.name.type.interface.ts"
+			],
+			"settings": {
+				"foreground": "#ac3d30",
+			}
+		},
+		{
+			"scope": "storage.type.ts",
+			"settings": {
+				"foreground": "#c2e58b",
+			}
+		},
+		{
+			"scope": [
+				"support.function.dom.ts",
+				"support.function.ts",
+				"support.function.json.ts"
+			],
+			"settings": {
+				"foreground": "#d4bb66",
+			}
+		},
+		{
+			"scope": "entity.name.function.ts",
+			"settings": {
+				"foreground": "#8eaaa2",
+			}
+		},
+		{
+			"scope": "support.constant.json.ts",
+			"settings": {
+				"foreground": "#bc80e7e8",
+			}
+		}
 
 
 
