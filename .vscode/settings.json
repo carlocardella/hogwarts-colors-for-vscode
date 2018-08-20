@@ -1,5 +1,5 @@
 {
     "markdown.styles": [
-        "themes//markdownStyle.css"
+        "themes/markdownStyle.css"
     ]
 }

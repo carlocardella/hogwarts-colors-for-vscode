@@ -348,39 +348,42 @@
 		{
 			"scope": "storage.type.js",
 			"settings": {
-				"foreground": "#9e6ac4",
+				// "foreground": "#9e6ac4",
+				"foreground": "#db6657",
 			}
 		},
 		{
 			"scope": [
-				"support.function.js",
-				"support.class.console.js"
+				"support.class.console.js",
+				"variable.other.object.js",
+				"meta.object-literal.key.js",
 			],
 			"settings": {
-				"foreground": "#ff626ad8",
+				// "foreground": "#ff626ad8",
+				"foreground": "#da2c2c",
 			}
 		},
 		{
 			"scope": [
 				"entity.name.function.js",
-				"Support.variable.*.js"
+				"support.function.js",
+				"support.function.console.js",
+				"support.variable.property.process.js"
 			],
 			"settings": {
 				"foreground": "#d4bb66",
 			}
 		},
 		{
-			"scope": "support.type.object.module.js",
+			"scope": [
+				"support.type.object.module.js",
+				"support.variable.object.process.js"
+			],
 			"settings": {
 				"foreground": "#c2e58b",
 			}
 		},
-		// {
-		// 	"scope": "support.variable.object.process.js",
-		// 	"settings": {
-		// 		"foreground": "#c96b53",
-		// 	}
-		// }
+
 
 
 
