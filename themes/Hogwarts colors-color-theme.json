@@ -616,13 +616,21 @@
 
 		// CSS
 		{
-			"scope": "entity.name.tag.css",
+			"scope": [
+				"entity.name.tag.css",
+				"entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.id.css",
+				"punctuation.definition.entity.css"
+			],
 			"settings": {
 				"foreground": "#ee4835e1",
 			}
 		},
 		{
-			"scope": "support.type.property-name.css",
+			"scope": [
+				"support.type.property-name.css",
+				"support.type.vendored.property-name.css"
+			],
 			"settings": {
 				"foreground": "#e5ba53",
 			}
@@ -637,13 +645,24 @@
 				"foreground": "#96c54ae8",
 			}
 		},
+		// {
+		// 	"scope": "keyword.other.unit.px.css",
+		// 	"settings": {
+		// 		"foreground": "#a0bcec",
+		// 	}
+		// },
 		{
-			// "scope": "keyword.other.unit.px.css",
-			"scope": "keyword.other.unit css",
+			"scope": "meta.selector.css",
 			"settings": {
-				"foreground": "#a0bcec",
+				"foreground": "#f59b51e1",
 			}
-		}
+		},
+		{
+			"scope": "support.function.gradient.css",
+			"settings": {
+				"foreground": "#78bcf3ec",
+			}
+		},
 
 
 
