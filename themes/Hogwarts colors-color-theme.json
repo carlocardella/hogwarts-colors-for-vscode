@@ -645,12 +645,12 @@
 				"foreground": "#96c54ae8",
 			}
 		},
-		// {
-		// 	"scope": "keyword.other.unit.px.css",
-		// 	"settings": {
-		// 		"foreground": "#a0bcec",
-		// 	}
-		// },
+		{
+			"scope": "source.css keyword.other.unit",
+			"settings": {
+				"foreground": "#a0bcec",
+			}
+		},
 		{
 			"scope": "meta.selector.css",
 			"settings": {
