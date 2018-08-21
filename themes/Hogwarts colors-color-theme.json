@@ -17,23 +17,6 @@
 		"editor.wordHighlightStrongBackground": "#bbbbbb48",
 		"editor.selectionHighlightBackground": "#cacaca65",
 		"editor.findMatchBackground": "#bbbbbb7a",
-		// "selection.background": "#ff0000",
-		// "editor.selectionForeground": "#ff0000",
-		// "editor.findMatchBorder": "#ff0000",
-		// "editor.findMatchHighlightBackground": "#ff0000",
-		// "editor.findMatchHighlightBorder": "#ff0000",
-		// "editor.findRangeHighlightBackground": "#ff0000",
-		// "editor.findRangeHighlightBorder": "#ff0000",
-		// "editor.hoverHighlightBackground": "#00ff15",
-		// "editor.inactiveSelectionBackground": "#ff0000",
-		// "editor.lineHighlightBorder": "#ff0000",
-		// "editor.rangeHighlightBackground": "#ff0000",
-		// "editor.rangeHighlightBorder": "#ff0000",
-		// "editor.selectionForeground": "#00d9ff",
-		// "editor.selectionHighlightBorder": "#ff0000",
-		// "editor.wordHighlightBackground": "#ff008c",
-		// "editor.wordHighlightBorder": "#ff0000",
-		// "editor.wordHighlightStrongBorder": "#ff0000",
 	},
 	"tokenColors": [{
 			"settings": {
@@ -540,11 +523,39 @@
 			}
 		},
 		{
-			"scope": "support.function.kernel.ruby",
+			"scope": [
+				"support.function.kernel.ruby",
+				"entity.name.function.ruby"
+			],
 			"settings": {
 				"foreground": "#ffc500",
 			}
 		},
+
+
+
+		// HTML
+		{
+			"scope": "entity.name.tag.html",
+			"settings": {
+				"foreground": "#ff626ad8",
+			}
+		},
+		{
+			"scope": "entity.other.attribute-name.html",
+			"settings": {
+				"foreground": "#e5ba53",
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.single.html",
+				"string.quoted.double.html"
+			],
+			"settings": {
+				"foreground": "#96c54ae8",
+			}
+		}
 
 
 
