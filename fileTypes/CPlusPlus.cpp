@@ -1,6 +1,5 @@
 
-Search Scopes
- #include "ContactsModel.h"
+#include "ContactsModel.h"
 #include "core/IdentityManager.h"
 #include "core/ContactsManager.h"
 #include <QDebug>
@@ -28,15 +27,17 @@ void ContactsModel::setIdentity(UserIdentity *identity)
         user->disconnect(this);
     contacts.clear();
 
-    if (m_identity) {
+    if (m_identity)
+    {
         disconnect(m_identity, 0, this, 0);
         disconnect(&m_identity->contacts, 0, this, 0);
     }
 
     m_identity = identity;
 
-    if (m_identity) {
-        connect(&identity->contacts, SIGNAL(contactAdded(ContactUser*)), SLOT(contactAdded(ContactUser*)));
+    if (m_identity)
+    {
+        connect(&identity->contacts, SIGNAL(contactAdded(ContactUser *)), SLOT(contactAdded(ContactUser *)));
 
         contacts = identity->contacts.contacts();
         std::sort(contacts.begin(), contacts.end(), contactSort);
@@ -66,7 +67,7 @@ void ContactsModel::updateUser(ContactUser *user)
 {
     if (!user)
     {
-        user = qobject_cast<ContactUser*>(sender());
+        user = qobject_cast<ContactUser *>(sender());
         if (!user)
             return;
     }
@@ -78,13 +79,13 @@ void ContactsModel::updateUser(ContactUser *user)
         return;
     }
 
-    QList<ContactUser*> sorted = contacts;
+    QList<ContactUser *> sorted = contacts;
     std::sort(sorted.begin(), sorted.end(), contactSort);
     int newRow = sorted.indexOf(user);
 
     if (row != newRow)
     {
-        beginMoveRows(QModelIndex(), row, row, QModelIndex(), (newRow > row) ? (newRow+1) : newRow);
+        beginMoveRows(QModelIndex(), row, row, QModelIndex(), (newRow > row) ? (newRow + 1) : newRow);
         contacts = sorted;
         endMoveRows();
     }
@@ -95,7 +96,7 @@ void ContactsModel::connectSignals(ContactUser *user)
 {
     connect(user, SIGNAL(statusChanged()), SLOT(updateUser()));
     connect(user, SIGNAL(nicknameChanged()), SLOT(updateUser()));
-    connect(user, SIGNAL(contactDeleted(ContactUser*)), SLOT(contactRemoved(ContactUser*)));
+    connect(user, SIGNAL(contactDeleted(ContactUser *)), SLOT(contactRemoved(ContactUser *)));
 }
 
 void ContactsModel::contactAdded(ContactUser *user)
@@ -104,7 +105,7 @@ void ContactsModel::contactAdded(ContactUser *user)
 
     connectSignals(user);
 
-    QList<ContactUser*>::Iterator lp = qLowerBound(contacts.begin(), contacts.end(), user, contactSort);
+    QList<ContactUser *>::Iterator lp = qLowerBound(contacts.begin(), contacts.end(), user, contactSort);
     int row = lp - contacts.begin();
 
     beginInsertRows(QModelIndex(), row, row);
@@ -114,7 +115,7 @@ void ContactsModel::contactAdded(ContactUser *user)
 
 void ContactsModel::contactRemoved(ContactUser *user)
 {
-    if (!user && !(user = qobject_cast<ContactUser*>(sender())))
+    if (!user && !(user = qobject_cast<ContactUser *>(sender())))
         return;
 
     int row = contacts.indexOf(user);
@@ -125,7 +126,7 @@ void ContactsModel::contactRemoved(ContactUser *user)
     disconnect(user, 0, this, 0);
 }
 
-QHash<int,QByteArray> ContactsModel::roleNames() const
+QHash<int, QByteArray> ContactsModel::roleNames() const
 {
     QHash<int, QByteArray> roles;
     roles[Qt::DisplayRole] = "name";
@@ -161,5 +162,3 @@ QVariant ContactsModel::data(const QModelIndex &index, int role) const
 
     return QVariant();
 }
- 
- 

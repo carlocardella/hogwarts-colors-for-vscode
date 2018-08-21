@@ -1,6 +1,5 @@
 
-Search Scopes
- open Lexer_flow
+open Lexer_flow
 module Ast = Spider_monkey_ast
 open Ast
 module Error = Parse_error

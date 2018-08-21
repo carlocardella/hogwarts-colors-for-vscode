@@ -1,5 +1,4 @@
 
-Search Scopes
  /* stringmerge.c -- Given two sorted files of strings, it creates
  *            a sorted file consisting of all their elements.
  *            The names of the files are passed as command

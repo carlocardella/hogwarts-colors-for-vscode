@@ -1,6 +1,4 @@
-
-Search Scopes
- class HTMLProcessor
+class HTMLProcessor
 
   # called before parsing anything
   def start_parsing(scope_name)

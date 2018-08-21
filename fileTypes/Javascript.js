@@ -1,4 +1,3 @@
-Search Scopes
 // Cross-browser xml parsing
 var parseXML = function (data) {
     var xml, tmp;

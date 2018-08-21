@@ -1,6 +1,5 @@
 
-Search Scopes
- geom_dotplot <- function (mapping = NULL, data = NULL, stat = "bindot", position = "identity",
+geom_dotplot <- function (mapping = NULL, data = NULL, stat = "bindot", position = "identity",
 na.rm = FALSE, binwidth = NULL, binaxis = "x", method="dotdensity", binpositions = "bygroup", stackdir = "up",
 stackratio = 1, dotsize = 1, stackgroups = FALSE, ...) {
   GeomDotplot$new(mapping = mapping, data = data, stat = stat, position = position,

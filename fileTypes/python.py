@@ -1,5 +1,4 @@
 
-Search Scopes
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 

@@ -1,6 +1,4 @@
-
-Search Scopes
- #import "UIView+Facade.h"
+#import "UIView+Facade.h"
 
 @implementation UIView (Facade)
 

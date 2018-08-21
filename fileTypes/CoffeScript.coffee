@@ -1,5 +1,4 @@
 
-Search Scopes
  Application.directive "scopeBar", [], ->
   replace: true
   templateUrl: 'partials/scope_bar'

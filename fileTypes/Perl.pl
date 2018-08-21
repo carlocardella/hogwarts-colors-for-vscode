@@ -1,6 +1,5 @@
 
-Search Scopes
- use strict;
+use strict;
 
 #
 # This script also prints the contents of all the listed files, but

@@ -1,5 +1,4 @@
 
-Search Scopes
  -module(cowboy_protocol).
 
 %% API.

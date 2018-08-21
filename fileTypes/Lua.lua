@@ -1,6 +1,5 @@
 
-Search Scopes
- local IO = require "kong.tools.io"
+local IO = require "kong.tools.io"
 local utils = require "kong.tools.utils"
 local cache = require "kong.tools.database_cache"
 local stringy = require "stringy"

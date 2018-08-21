@@ -1,7 +1,5 @@
 
-Search Scopes
  <?php
-
 // base class with member properties and methods
 class Vegetable {
 
