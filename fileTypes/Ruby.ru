@@ -1,50 +1,62 @@
-#
-# This tests the adder simulation by building various size adders and running
-# them various numbers of times.
-#
-require "csim"
-require "adder"
 
-# Size of the adder.
-size = 8
-rpt = 20
-size = $*[0].to_i if $*.length > 0
-rpt = $*[1].to_i if $*.length > 1
+Search Scopes
+ class HTMLProcessor
 
-NumberOut.shush
+  # called before parsing anything
+  def start_parsing(scope_name)
+    @line = ""
+    @offset = 0
+    @text= []
+  end
 
-# Blueprint for the 10-bit adder.
-bp = Adder.new(size)
-addr = bp.another
+  # called after parsing everything
+  def end_parsing(scope_name)
+    @text.each_with_index do |line, index|
+      @text[index] = "<span class='l l-#{index+1} #{scope_name.gsub('.',' ')}'>#{line}</span>"
+    end
+    puts @text.join("")
+  end
 
-# Hook up two input switch banks, one output, and an overflow led.
-na = SwitchBank.new
-size.times { na.join(addr) }
-nb = SwitchBank.new
-size.times { nb.join(addr) }
-disp = NumberOut.new("  Sum")
-size.times { addr.join(disp) }
-addr.join(LED.new("  Oflow"))
+  # called before processing a line
+  def new_line(line_content)
+    @offset = 0
+    @line = line_content.clone
+    @text << @line
+  end
 
-#Gate.dump(na)
+  def open_tag(tag_name, position_in_current_line)
+    tag = "<s class='#{tag_name.gsub("."," ")}'>"
+    @line.insert(position_in_current_line + @offset, tag)
+    @offset += tag.size
+  end
 
-NumberOut.shush(false)
+  def close_tag(tag_name, position_in_current_line)
+    tag = "</s>"
+    @line.insert(position_in_current_line + @offset, tag)
+    @offset += tag.size
+  end
 
-# Perform 30 addtions of random numbers.  For each, we choose two random
-# inputs, and set them into the input switch banks.  The outputs will print,
-# being the sum numeric display and the overflow LED.
-print "== Performing #{rpt} tests on #{size}-bit adder.  ",
-        "Max sum is #{(1<<size)-1} ==\n"
-rpt.times do
-  # Choose randoms and print them.
-  a = rand(1<<size)
-  b = rand(1<<size)
-  print a, " + ", b, ":\n"
-
-  # Add them, and keep the circuits active to suppress printout until after
-  # the whole operation is complete.
-  Gate.activate
-  na.value = a
-  nb.value = b
-  Gate.deactivate
 end
+
+syntax = Textpow.syntax('ruby') # or 'source.ruby' or 'lib/textpow/syntax/source.ruby.syntax'
+processor = HTMLProcessor.new
+syntax.parse(text, processor)
+
+require File.expand_path('../boot', __FILE__)
+
+require 'rails/all'
+
+if defined?(Bundler)
+  # If you precompile assets before deploying to production, use this line
+  Bundler.require(*Rails.groups(:assets => %w(development test)))
+  # If you want your assets lazily compiled in production, use this line
+  # Bundler.require(:default, :assets, Rails.env)
+end
+
+require 'rubygems'
+
+# Set up gems listed in the Gemfile.
+ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../../Gemfile', __FILE__)
+
+require 'bundler/setup' if File.exists?(ENV['BUNDLE_GEMFILE'])
+

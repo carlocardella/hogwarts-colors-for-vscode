@@ -1,62 +1,62 @@
-const fs = require('fs-plus')
-const path = require('path')
-
-const hasWriteAccess = (dir) => {
-    const testFilePath = path.join(dir, 'write.test')
+Search Scopes
+// Cross-browser xml parsing
+var parseXML = function (data) {
+    var xml, tmp;
+    if (!data || typeof data !== "string") {
+        return null;
+    }
     try {
-        fs.writeFileSync(testFilePath, new Date().toISOString(), {
-            flag: 'w+'
-        })
-        fs.unlinkSync(testFilePath)
-        return true
-    } catch (err) {
-        return false
+        if (window.DOMParser) { // Standard
+            tmp = new DOMParser();
+            xml = tmp.parseFromString(data, "text/xml");
+        } else { // IE
+            xml = new ActiveXObject("Microsoft.XMLDOM");
+            xml.async = false;
+            xml.loadXML(data);
+        }
+    } catch (e) {
+        xml = undefined;
     }
-}
-
-const getAppDirectory = () => {
-    switch (process.platform) {
-        case 'darwin':
-            return process.execPath.substring(0, process.execPath.indexOf('.app') + 4)
-        case 'linux':
-        case 'win32':
-            return path.join(process.execPath, '..')
+    if (!xml || !xml.documentElement || xml.getElementsByTagName("parsererror").length) {
+        jQuery.error("Invalid XML: " + data);
     }
+    return xml;
+};
+
+// Bind a function to a context, optionally partially applying any arguments.
+var proxy = function (fn, context) {
+    var tmp, args, proxy;
+
+    if (typeof context === "string") {
+        tmp = fn[context];
+        context = fn;
+        fn = tmp;
+    }
+
+    // Quick check to determine if target is callable, in the spec
+    // this throws a TypeError, but we will just return undefined.
+    if (!jQuery.isFunction(fn)) {
+        return undefined;
+    }
+
+    // Simulated bind
+    args = core_slice.call(arguments, 2);
+    proxy = function () {
+        return fn.apply(context || this, args.concat(core_slice.call(arguments)));
+    };
+
+    // Set the guid of unique handler to the same of original handler, so it can be removed
+    proxy.guid = fn.guid = fn.guid || jQuery.guid++;
+
+    return proxy;
+};
+
+Sound.play = function () {}
+Sound.prototype = {
+    something;
 }
-
-module.exports = {
-    setAtomHome: (homePath) => {
-        // When a read-writeable .atom folder exists above app use that
-        const portableHomePath = path.join(getAppDirectory(), '..', '.atom')
-        if (fs.existsSync(portableHomePath)) {
-            if (hasWriteAccess(portableHomePath)) {
-                process.env.ATOM_HOME = portableHomePath
-            } else {
-                // A path exists so it was intended to be used but we didn't have rights, so warn.
-                console.log(`Insufficient permission to portable Atom home "${portableHomePath}".`)
-            }
-        }
-
-        // Check ATOM_HOME environment variable next
-        if (process.env.ATOM_HOME !== undefined) {
-            return
-        }
-
-        // Fall back to default .atom folder in users home folder
-        process.env.ATOM_HOME = path.join(homePath, '.atom')
-    },
-
-    setUserData: (app) => {
-        const electronUserDataPath = path.join(process.env.ATOM_HOME, 'electronUserData')
-        if (fs.existsSync(electronUserDataPath)) {
-            if (hasWriteAccess(electronUserDataPath)) {
-                app.setPath('userData', electronUserDataPath)
-            } else {
-                // A path exists so it was intended to be used but we didn't have rights, so warn.
-                console.log(`Insufficient permission to Electron user data "${electronUserDataPath}".`)
-            }
-        }
-    },
-
-    getAppDirectory: getAppDirectory
-}
+Sound.prototype.play = function () {}
+Sound.prototype.play = myfunc
+var parser = document.createElement('a');
+parser.href = "http://example.com:3000/pathname/?search=test#hash";
+parser.hostname; // => "example.com"
