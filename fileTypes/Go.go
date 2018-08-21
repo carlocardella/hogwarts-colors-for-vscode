@@ -1,65 +1,84 @@
-// Copyright 2016 Google Inc. All rights reserved.
-// Use of this source code is governed by the Apache 2.0
-// license that can be found in the LICENSE file.
 
-package language_snippets
+package main
 
 import (
-	"golang.org/x/net/context"
-
-	language "cloud.google.com/go/language/apiv1"
-	languagepb "google.golang.org/genproto/googleapis/cloud/language/v1"
+	"fmt"
+	"math/rand"
 )
 
-// Functions are included in the documentation. Use a package level variable
-// to avoid it being included in the function signature below.
-var client *language.Client
-
-func analyzeEntitiesFromGCS(ctx context.Context, gcsURI string) (*languagepb.AnalyzeEntitiesResponse, error) {
-	return client.AnalyzeEntities(ctx, &languagepb.AnalyzeEntitiesRequest{
-		Document: &languagepb.Document{
-			Source: &languagepb.Document_GcsContentUri{
-				GcsContentUri: gcsURI,
-			},
-			Type: languagepb.Document_PLAIN_TEXT,
-		},
-		EncodingType: languagepb.EncodingType_UTF8,
-	})
+// A Tree is a binary tree with integer values.
+type Tree struct {
+	Left  *Tree
+	Value int
+	Right *Tree
 }
 
-func analyzeSentimentFromGCS(ctx context.Context, gcsURI string) (*languagepb.AnalyzeSentimentResponse, error) {
-	return client.AnalyzeSentiment(ctx, &languagepb.AnalyzeSentimentRequest{
-		Document: &languagepb.Document{
-			Source: &languagepb.Document_GcsContentUri{
-				GcsContentUri: gcsURI,
-			},
-			Type: languagepb.Document_PLAIN_TEXT,
-		},
-	})
+// Walk traverses a tree depth-first,
+// sending each Value on a channel.
+func Walk(t *Tree, ch chan int) {
+	if t == nil {
+		return
+	}
+	Walk(t.Left, ch)
+	ch <- t.Value
+	Walk(t.Right, ch)
 }
 
-func analyzeSyntaxFromGCS(ctx context.Context, gcsURI string) (*languagepb.AnnotateTextResponse, error) {
-	return client.AnnotateText(ctx, &languagepb.AnnotateTextRequest{
-		Document: &languagepb.Document{
-			Source: &languagepb.Document_GcsContentUri{
-				GcsContentUri: gcsURI,
-			},
-			Type: languagepb.Document_PLAIN_TEXT,
-		},
-		Features: &languagepb.AnnotateTextRequest_Features{
-			ExtractSyntax: true,
-		},
-		EncodingType: languagepb.EncodingType_UTF8,
-	})
+// Walker launches Walk in a new goroutine,
+// and returns a read-only channel of values.
+func Walker(t *Tree) <-chan int {
+	ch := make(chan int)
+	go func() {
+		Walk(t, ch)
+		close(ch)
+	}()
+	return ch
 }
 
-func classifyTextFromGCS(ctx context.Context, gcsURI string) (*languagepb.ClassifyTextResponse, error) {
-	return client.ClassifyText(ctx, &languagepb.ClassifyTextRequest{
-		Document: &languagepb.Document{
-			Source: &languagepb.Document_GcsContentUri{
-				GcsContentUri: gcsURI,
-			},
-			Type: languagepb.Document_PLAIN_TEXT,
-		},
-	})
+// Compare reads values from two Walkers
+// that run simultaneously, and returns true
+// if t1 and t2 have the same contents.
+func Compare(t1, t2 *Tree) bool {
+	c1, c2 := Walker(t1), Walker(t2)
+	for {
+		v1, ok1 := <-c1
+		v2, ok2 := <-c2
+		if !ok1 || !ok2 {
+			return ok1 == ok2
+		}
+		if v1 != v2 {
+			break
+		}
+	}
+	return false
+}
+
+// New returns a new, random binary tree
+// holding the values 1k, 2k, ..., nk.
+func New(n, k int) *Tree {
+	var t *Tree
+	for _, v := range rand.Perm(n) {
+		t = insert(t, (1+v)*k)
+	}
+	return t
+}
+
+func insert(t *Tree, v int) *Tree {
+	if t == nil {
+		return &Tree{nil, v, nil}
+	}
+	if v < t.Value {
+		t.Left = insert(t.Left, v)
+		return t
+	}
+	t.Right = insert(t.Right, v)
+	return t
+}
+
+func main() {
+	t1 := New(100, 1)
+	fmt.Println(Compare(t1, New(100, 1)), "Same Contents")
+	fmt.Println(Compare(t1, New(99, 1)), "Differing Sizes")
+	fmt.Println(Compare(t1, New(100, 2)), "Differing Values")
+	fmt.Println(Compare(t1, New(101, 2)), "Dissimilar")
 }
