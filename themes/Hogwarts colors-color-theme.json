@@ -439,7 +439,45 @@
 			"settings": {
 				"foreground": "#bc80e7e8",
 			}
-		}
+		},
+
+
+
+		// R
+		{
+			"scope": "entity.name.function.r",
+			"settings": {
+				"foreground": "#8eaaa2",
+			}
+		},
+		{
+			"scope": "support.function.r",
+			"settings": {
+				"foreground": "#ff626ad8",
+			}
+		},
+
+
+
+		// RUBY
+		{
+			"scope": "variable.other.ruby",
+			"settings": {
+				"foreground": "#ff626ad8",
+			}
+		},
+		{
+			"scope": "support.class.ruby",
+			"settings": {
+				"foreground": "#50a154",
+			}
+		},
+		{
+			"scope": "support.function.kernel.ruby",
+			"settings": {
+				"foreground": "#ffc500",
+			}
+		},
 
 
 
