@@ -167,6 +167,73 @@
 				"foreground": "#e5ba53"
 			}
 		},
+		{
+			"scope": [
+				"punctuation.separator.dictionary.key-value.json",
+				"punctuation.definition.dictionary.begin.json",
+				"punctuation.definition.dictionary.end.json",
+				"punctuation.definition.array.begin.json",
+				"punctuation.definition.array.end.json"
+			],
+			"settings": {
+				"foreground": "#78cf85de",
+			}
+		},
+
+
+
+		// JAVA
+		{
+			"scope": "keyword.other.import.java",
+			"settings": {
+				"foreground": "#569cd6",
+			}
+		},
+		{
+			"scope": [
+				"storage.modifier.import.java",
+				"storage.modifier.java",
+			],
+			"settings": {
+				"foreground": "#e2924c",
+			}
+		},
+		{
+			"scope": "variable.other.object.java",
+			"settings": {
+				"foreground": "#ff626ad8",
+			}
+		},
+		{
+			"scope": "entity.name.function.java",
+			"settings": {
+				"foreground": "#93a7d8",
+			}
+		},
+		{
+			"scope": "meta.method.body.java",
+			"settings": {
+				"foreground": "#78cf85de",
+			}
+		},
+		{
+			"scope": "variable.other.object.property.java",
+			"settings": {
+				"foreground": "#DCDCAA",
+			}
+		},
+		{
+			"scope": "storage.type.primitive.java",
+			"settings": {
+				"foreground": "#78cf85de",
+			}
+		},
+		{
+			"scope": "storage.type.java",
+			"settings": {
+				"foreground": "#a9eab2",
+			}
+		},
 
 
 
