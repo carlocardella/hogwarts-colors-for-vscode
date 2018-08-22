@@ -8,7 +8,7 @@ This extension is available for free in the Visual Studio Code Marketplace
 
 ### What's new?
 
-Click here to go to the [Changelog](./changelog.md)
+Click here to go to the [Changelog](changelog.md)
 
 #### Inconsistencies?
 

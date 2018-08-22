@@ -11,10 +11,15 @@
         "Themes"
     ],
     "contributes": {
-        "themes": [{
-            "label": "Hogwarts colors",
-            "uiTheme": "vs-dark",
-            "path": "./themes/Hogwarts colors-color-theme.json"
-        }]
+        "themes": [
+            {
+                "label": "Hogwarts colors",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Hogwarts colors-color-theme.json"
+            }
+        ]
+    },
+    "dependencies": {
+        "npm": "^6.4.0"
     }
 }
