@@ -12,7 +12,7 @@ Click here to go to the [Changelog](./changelog.md)
 
 #### Inconsistencies?
 
-If you find any inconsistency in any language, raise an Issue and I'll fix it, please provide a sample for the language so I can compare.
+If you find any inconsistency in any language, raise an Issue and I'll take a look, please provide a sample for the language so I can compare.
 
 ### Customization
 
