@@ -1,10 +1,23 @@
 # Hogwarts colors for Visual Studio Code
 
+Visual Studio theme colors inspired by Harry Potter, Hogwarts and Hogwarts Houses colors and banners.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+### Installing
 
-**Enjoy!**
+This extension is available for free in the Visual Studio Code Marketplace
 
-[https://github.com/aziz/tmTheme-Editor](https://github.com/aziz/tmTheme-Editor)
+### What's new?
+
+Click here to go to the [Changelog](./changelog.md)
+
+#### Inconsistencies?
+
+If you find any inconsistency in any language, raise an Issue and I'll fix it, please provide a sample for the language so I can compare.
+
+### Customization
+
+If you are using VSCode 1.12+ versions you can customize the colors to your liking, overriding the ones provided by this theme. More info [here](https://code.visualstudio.com/docs/getstarted/theme-color-reference).
+
+## Credits
+
+- [tmTheme-Editor](https://github.com/aziz/tmTheme-Editor)
