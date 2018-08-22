@@ -6,7 +6,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Thematic Hogwarts houses themes
+- Light theme
+- Gryffindor theme
+- Slytherin theme
+- Hufflepuff theme
+- Ravenclaw theme
 
 ## [0.0.1] - 2017-06-20
 
