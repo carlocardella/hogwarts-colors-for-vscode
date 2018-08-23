@@ -3,12 +3,12 @@
 	"type": "dark",
 	"colors": {
 		"editor.background": "#222326",
-		"editor.foreground": "#d4d4d4",
 		"statusBar.background": "#222326",
 		"titleBar.activeBackground": "#222326",
 		"activityBar.background": "#222326",
-		"sideBarTitle.foreground": "#bbbbbb",
 		"sideBar.background": "#222326",
+		"editor.foreground": "#d4d4d4",
+		"sideBarTitle.foreground": "#bbbbbb",
 		"editor.lineHighlightBackground": "#bbbbbb23",
 		"tab.activeBorder": "#ac3d30",
 		"activityBarBadge.background": "#ac3d30",
@@ -16,7 +16,7 @@
 		"editor.selectionBackground": "#bbbbbb48",
 		"editor.wordHighlightStrongBackground": "#bbbbbb48",
 		"editor.selectionHighlightBackground": "#cacaca65",
-		"editor.findMatchBackground": "#bbbbbb7a",
+		"editor.findMatchBackground": "#bbbbbb7a"
 	},
 	"tokenColors": [{
 			"settings": {
@@ -24,8 +24,10 @@
 			}
 		},
 		{
-			// "scope": "keyword.control",
-			"scope": "keyword",
+			"scope": [
+				"keyword",
+				"keyword.control"
+			],
 			"settings": {
 				"foreground": "#e38634",
 			}
@@ -33,16 +35,16 @@
 		{
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+				"source.powershell punctuation.definition"
 			],
 			"settings": {
-				"foreground": "#8e84b8b9"
+				"foreground": "#d4a09bd5"
 			}
 		},
 		{
 			"scope": "constant",
 			"settings": {
-				"foreground": "#179e2bde"
+				"foreground": "#ba93eee7"
 			}
 		},
 		{
@@ -59,16 +61,18 @@
 		},
 		{
 			"scope": [
-				"variable"
+				"variable",
+				"keyword.other.variable.definition.powershell",
+				"support.constant.automatic.powershell"
 			],
 			"settings": {
-				"foreground": "#ffc500"
+				"foreground": "#f1c120"
 			}
 		},
 		{
 			"scope": "storage",
 			"settings": {
-				"foreground": "#3190e9ec"
+				"foreground": "#688ee0"
 			}
 		},
 		{
@@ -78,15 +82,21 @@
 			}
 		},
 		{
-			"scope": "entity.name.function.invocation",
+			"scope": "entity",
 			"settings": {
-				"foreground": "#ac3d30"
+				"foreground": "#faf173ea"
 			}
 		},
 		{
-			"scope": "support.type.exception",
+			"scope": "support",
 			"settings": {
-				"foreground": "#ff6a6a85",
+				"foreground": "#fc3f38e5",
+			}
+		},
+		{
+			"scope": "meta",
+			"settings": {
+				"foreground": "#6fd85ae7",
 			}
 		},
 
