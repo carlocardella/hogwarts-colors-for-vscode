@@ -23,7 +23,11 @@ begin {
 process {
     foreach ($file in $Filepath) {
         Write-Verbose -Message "$file"
-        # this is a comment
+        <#
+        this is a multiline comment
+        this is a multiline comment
+        this is a multiline comment
+        #>
 
         switch ($file) {
             condition {
@@ -46,12 +50,19 @@ process {
             'value2'='two'
         }
 
+        $hereString = @"
+this is an here-string, 
+basically a multiline string variable
+this is an here-string, 
+basically a multiline string variable
+"@
+
         try {
             $hashTable.GetEnumerator() | ForEach-Object {
                 $_.Value
             }
         }
-        catch {
+        catch [System.Exception] {
             Write-Error $_.Excepttion.Message
         }
     }
