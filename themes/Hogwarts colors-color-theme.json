@@ -91,6 +91,20 @@
 
 
 
+		// BATCH
+		{
+			"scope": [
+				"keyword.control.conditional.batchfile",
+				"keyword.control.repeat.batchfile",
+				"keyword.control.statement.batchfile"
+			],
+			"settings": {
+				"foreground": "#ee4835e1",
+			}
+		},
+
+
+
 		// POWERSHELL
 		{
 			"name": "$",
