@@ -30,5 +30,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Contribute first generic Hogwarts dark theme
 - Add sample language files, mostly from [https://github.com/aziz/tmTheme-Editor](https://github.com/aziz/tmTheme-Editor) (thanks!)
-  
+- Initial languages:
+  - Powershell
+
 [0.0.1]: https://github.com/xxxxx
