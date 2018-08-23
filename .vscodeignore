@@ -3,3 +3,12 @@
 .gitignore
 vsc-extension-quickstart.md
 palette.css
+fileTypes/C.c
+fileTypes/CoffeScript.Coffe
+fileTypes/CPlusPlus.cpp
+fileTypes/Erlang.erl
+fileTypes/Haskell.h
+fileTypes/Latex.latex
+fileTypes/Lua.lua
+fileTypes/ObjectiveC.objectivec
+fileTypes/Ocaml.ocaml
