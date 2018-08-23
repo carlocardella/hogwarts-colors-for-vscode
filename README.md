@@ -8,7 +8,7 @@ This extension is available for free in the Visual Studio Code Marketplace
 
 ### What's new?
 
-Click here to go to the [Changelog](changelog.md)
+Check the [Changelog](changelog.md)
 
 #### Inconsistencies?
 
@@ -16,7 +16,7 @@ If you find any inconsistency in any language, raise an Issue and I'll take a lo
 
 ### Customization
 
-If you are using VSCode 1.12+ versions you can customize the colors to your liking, overriding the ones provided by this theme. More info [here](https://code.visualstudio.com/docs/getstarted/theme-color-reference).
+If you are using VSCode version 1.12+ you can customize the colors to your liking: for more info see [here](https://code.visualstudio.com/docs/getstarted/theme-color-reference).
 
 ## Credits
 
