@@ -16,8 +16,5 @@
             "uiTheme": "vs-dark",
             "path": "./themes/Hogwarts colors dark.json"
         }]
-    },
-    "dependencies": {
-        "npm": "^6.4.0"
     }
 }

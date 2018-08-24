@@ -2,6 +2,3 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
-palette.css
-*.tmTheme
-*.vsix
