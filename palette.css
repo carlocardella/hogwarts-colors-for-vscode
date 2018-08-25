@@ -1,57 +1,125 @@
-class hogwartsPalette {
-    "#913b41",
-    "#7f0909",
-    "#d09585",
-    "#9c5746",
-    "#c9413b",
-    "#c0442d",
-    "#822c19",
-    "#e199a4",
-    "#ea7077",
-    "#e33e4f",
-    "#bc261a",
-    "#e38634",
-    "#ebc0a4",
-    "#3c1f1e",
-    "#26414a",
-    "#262626",
-    "#7c9c4a",
-    "#50a154",
-    "#c2e58b",
-    "#507140",
-    "#a9eab2",
-    "#8eaaa2",
-    "#0d6217",
-    "#243e22",
-    "#5a5a5a",
-    "#aaaaaa",
-    "#ffc500",
-    "#e4dd61",
-    "#d4af78",
-    "#c3a772",
-    "#c29e37",
-    "#e5ba53",
-    "#eac76f",
-    "#cebc82",
-    "#c8a645",
-    "#b58c41",
-    "#915121",
-    "#9b6330",
-    "#5e4123",
-    "#706257",
-    "#b4b3a9",
-    "#1e2d22",
-    "#362e2a",
-    "#80aea8",
-    "#436571",
-    "#4199bd",
-    "#659bad",
-    "#245a73",
-    "#30759b",
-    "#f2f2f2",
-    "#d3e0f7",
-    "#95aac4",
-    "#5996d2",
-    "#6e5481",
-    "#716a92",
+.hogwartsPalette {
+    color: #531C64;
+    color: #E0EAEF;
+    color: #83B545;
+    color: #F9DD7B;
+    color: #AFBAC0;
+    color: #A1CCC5;
+    color: #B1B6B0;
+    color: #DCD2CE;
+    color: #AF5B02;
+    color: #F05921;
+    color: #21244C;
+}
+
+.Moody {
+    color: #65574E
+}
+
+.Dumbledore {
+    color: #B0A9CB
+}
+
+.Aragog {
+    color: #465155
+}
+
+.ArthurWisley {
+    color: #EB5017
+}
+
+.CrouchJr {
+    color: #072C03
+}
+
+.CrouchSr {
+    color: #272A4D
+}
+
+.BellatrixLestrange {
+    color: #002900
+}
+
+.DoloresUmbridge {
+    color: #D5A8A5
+}
+
+.FenrirGreyback {
+    color: #8E6E31
+}
+
+.GilderoyLockhart {
+    color: #96ACD1
+}
+
+.DracoMalfory {
+    color: #017431
+}
+
+.KingsleyShaklebolt {
+    color: #775DA4
+}
+
+.LunaLovegood {
+    color: #055183
+}
+
+.MollyWisley {
+    color: #D7561C
+}
+
+.MountainTroll {
+    color: #B7B9B4
+}
+
+.CedricDiggory {
+    color: #F0B600
+}
+
+.RitaSkeeter {
+    color: #A1E56A
+}
+
+.PetuniaDursley {
+    color: #FFD5B4
+}
+
+.GodricsHollow {
+    color: #E1E8F0
+}
+
+.KingaCross {
+    color: #C8BC8C
+}
+
+.ShellsCottage {
+    color: #F9DC7E
+}
+
+.Howler {
+    color: #DF6455
+}
+
+.GobletOfFire {
+    color: #68BCEA
+}
+
+.Merpeople {
+    color: #9DCCC4
+}
+
+.Phoenix {
+    color: #964702
+}
+
+.PottermoreHomepageFooter {
+    color: #333333
+}
+
+.PhilosophersStone {
+    color: #a61728
+}
+
+.HarryPotter {
+    color: #BD2A1B
 }

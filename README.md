@@ -21,3 +21,8 @@ If you are using VSCode version 1.12+ you can customize the colors to your likin
 ## Credits
 
 - [tmTheme-Editor](https://github.com/aziz/tmTheme-Editor)
+- [Pottermore](https://www.pottermore.com)
+    - [Colours](https://www.pottermore.com/writing-by-jk-rowling/colours)
+    - [Red, green and shocking pink: the importance of wizarding world colours](https://www.pottermore.com/features/importance-of-wizarding-world-colours)
+    - [How do you colour coordinate the wizarding world?](https://www.pottermore.com/features/Colour-coordinating-the-wizarding-world)
+    - [Colours or Pottermore](https://images.ctfassets.net/bxd3o8b291gf/1o1zcpziH6uukemigE4yCa/b6895a88989fc821a23a58eac8b123ec/ColoursofPottermore_03.jpg?w=1330)

@@ -14,15 +14,34 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 #### languages
 
+- Batch
 - C
-- coffe
+- CoffeScript
+- CSV
 - C++
-- erl
-- h
-- latex
-- lua
-- ObjectiveC
+- C#
+- css.css
+- Erlang
+- Go
+- Haskell
+- Html
+- Java
+- Javascript
+- json
+- Latex
+- Lua
+- Markdown
+- Objective C
 - Ocaml
+- Perl
+- Php
+- Plain Text
+- Python
+- R
+- Ruby
+- Typescript
+- Xml
+- Xslt
 
 ## [0.0.1] - 2017-06-20
 

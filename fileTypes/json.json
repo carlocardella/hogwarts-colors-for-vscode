@@ -17,7 +17,8 @@
                             "XML"
                         ]
                     },
-                    "GlossSee": "markup"
+                    "GlossSee": "markup",
+                    "Boolean": true
                 }
             }
         }
