@@ -14,9 +14,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 #### languages
 
-- Haskell
 - Latex
-- Objective C
 - Ocaml
 
 ## [0.0.1] - 2017-06-20
@@ -35,12 +33,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - CSV
   - Erlang
   - Go
+  - Haskell
   - Html
   - Java
   - Javascript
   - json
   - Lua
   - Markdown
+  - Objective C
   - Perl
   - Php
   - Plain Text
