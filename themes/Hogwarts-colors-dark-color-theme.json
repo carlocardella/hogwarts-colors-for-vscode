@@ -113,7 +113,8 @@
 				"source.php storage.type.function",
 				"storage.modifier.java",
 				"entity.name.function.c",
-				"variable.other.object.coffee"
+				"variable.other.object.coffee",
+				"keyword.control.conditional.batchfile"
 			],
 			"settings": {
 				"foreground": "#f12a2af3"
@@ -130,7 +131,8 @@
 				"source.php entity.name.type.class",
 				"source.php entity.other.inherited-class",
 				"entity.name.function.ruby",
-				"entity.name.function.go"
+				"entity.name.function.go",
+				"entity.name.function.lua"
 			],
 			"settings": {
 				"foreground": "#A1E56Ae7"

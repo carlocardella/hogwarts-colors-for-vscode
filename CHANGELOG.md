@@ -14,11 +14,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 #### languages
 
-- Batch
 - Erlang
 - Haskell
 - Latex
-- Lua
 - Objective C
 - Ocaml
 
@@ -29,27 +27,29 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Contribute first generic Hogwarts dark theme
 - Add sample language files, mostly from [https://github.com/aziz/tmTheme-Editor](https://github.com/aziz/tmTheme-Editor) (thanks!)
 - Initial languages:
-  - Powershell
-  - json
-  - Xml
-  - Xslt
-  - Javascript
-  - Typescript
-  - CoffeScript
-  - Python
-  - Markdown
-  - CSV
+  - Batch
   - C
-  - C++
   - C#
-  - Html
+  - C++
+  - CoffeScript
   - CSS
-  - Php
+  - CSV
   - Go
-  - Plain Text
+  - Html
   - Java
+  - Javascript
+  - json
+  - Lua
+  - Markdown
   - Perl
+  - Php
+  - Plain Text
+  - Powershell
+  - Python
   - R
   - Ruby
+  - Typescript
+  - Xml
+  - Xslt
   
 [0.0.1]: https://github.com/xxxxx
