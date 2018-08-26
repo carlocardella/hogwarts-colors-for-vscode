@@ -122,7 +122,8 @@
 				"source.css keyword.other.unit",
 				"source.php entity.name.type.class",
 				"source.php entity.other.inherited-class",
-				"entity.name.function.ruby"
+				"entity.name.function.ruby",
+				"entity.name.function.go"
 			],
 			"settings": {
 				"foreground": "#A1E56Ae7"

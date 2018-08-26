@@ -18,7 +18,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - CoffeScript
 - CSV
 - Erlang
-- Go
 - Haskell
 - Latex
 - Lua
@@ -46,6 +45,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - Html
   - CSS
   - Php
+  - Go
   - Plain Text
   - Java
   - Perl
