@@ -15,20 +15,16 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 #### languages
 
 - Batch
-- C
 - CoffeScript
 - CSV
-- C++
 - Erlang
 - Go
 - Haskell
-- Java
 - Latex
 - Lua
 - Objective C
 - Ocaml
 - Perl
-- Plain Text
 - R
 - Ruby
 
@@ -47,9 +43,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - Typescript
   - Python
   - Markdown
+  - C
+  - C++
   - C#
   - Html
   - CSS
   - Php
+  - Plain Text
+  - Java
   
 [0.0.1]: https://github.com/xxxxx

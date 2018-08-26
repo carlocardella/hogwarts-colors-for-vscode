@@ -7,7 +7,7 @@
 		"titleBar.activeBackground": "#222326",
 		"activityBar.background": "#222326",
 		"sideBar.background": "#222326",
-		"editor.foreground": "#E1E8F0",
+		"editor.foreground": "#e2ebf0",
 		"sideBarTitle.foreground": "#B0A9CB",
 		"editor.lineHighlightBackground": "#B0A9CB23",
 		"tab.activeBorder": "#BD2A1B",
@@ -30,7 +30,8 @@
 				"entity.name.tag.xml",
 				"entity.other.attribute-name.xml",
 				"entity.name.tag.namespace.xml",
-				"source.php storage.type"
+				"source.php storage.type",
+				"punctuation.definition.directive.c"
 			],
 			"settings": {
 				"foreground": "#d7571cf5"
@@ -39,6 +40,7 @@
 		{
 			"scope": [
 				"comment",
+				"comment.block",
 				"source.powershell punctuation.definition",
 				"punctuation.definition.comment"
 			],
@@ -49,7 +51,8 @@
 		{
 			"scope": [
 				"constant",
-				"source.cs entity.name"
+				"source.cs entity.name",
+				"storage.modifier.import.java"
 			],
 			"settings": {
 				"foreground": "#bf9dece7"
@@ -69,7 +72,8 @@
 				"keyword.other.variable.definition.powershell",
 				"support.constant.automatic.powershell",
 				"support.type.property-name.json",
-				"entity.other.attribute-name"
+				"entity.other.attribute-name",
+				"meta.function-call.c"
 			],
 			"settings": {
 				"foreground": "#F0B600"
@@ -99,10 +103,12 @@
 				"storage.type.cs",
 				"entity.name.tag",
 				"source.php storage.type.class",
-				"source.php storage.type.function"
+				"source.php storage.type.function",
+				"storage.modifier.java",
+				"entity.name.function.c"
 			],
 			"settings": {
-				"foreground": "#d91e1ef3"
+				"foreground": "#f12a2af3"
 			}
 		},
 		{
