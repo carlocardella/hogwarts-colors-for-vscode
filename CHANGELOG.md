@@ -12,10 +12,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Hufflepuff theme
 - Ravenclaw theme
 
-#### languages
-
-
-## [0.0.1] - 2017-06-20
+## [0.0.1] - 2018-08-25
 
 ### Initial release
 
