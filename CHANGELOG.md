@@ -24,7 +24,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Lua
 - Objective C
 - Ocaml
-- Ruby
 
 ## [0.0.1] - 2017-06-20
 
@@ -51,5 +50,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - Java
   - Perl
   - R
+  - Ruby
   
 [0.0.1]: https://github.com/xxxxx

@@ -73,7 +73,8 @@
 				"support.constant.automatic.powershell",
 				"support.type.property-name.json",
 				"entity.other.attribute-name",
-				"meta.function-call.c"
+				"meta.function-call.c",
+				"punctuation.definition.variable.ruby"
 			],
 			"settings": {
 				"foreground": "#F0B600"
@@ -120,7 +121,8 @@
 				"source.cs keyword.control",
 				"source.css keyword.other.unit",
 				"source.php entity.name.type.class",
-				"source.php entity.other.inherited-class"
+				"source.php entity.other.inherited-class",
+				"entity.name.function.ruby"
 			],
 			"settings": {
 				"foreground": "#A1E56Ae7"
