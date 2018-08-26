@@ -48,13 +48,19 @@
 			}
 		},
 		{
-			"scope": "constant",
+			"scope": [
+				"constant",
+				"source.cs entity.name"
+			],
 			"settings": {
-				"foreground": "#ba93eee7"
+				"foreground": "#bf9dece7"
 			}
 		},
 		{
-			"scope": "string",
+			"scope": [
+				"string",
+				// "source.cs keyword.other"
+			],
 			"settings": {
 				"foreground": "#9c83c4"
 			}
@@ -92,7 +98,8 @@
 		{
 			"scope": [
 				"support",
-				"entity.name.tag.localname.xml"
+				"entity.name.tag.localname.xml",
+				"storage.type.cs"
 			],
 			"settings": {
 				"foreground": "#d91e1ef3"
@@ -103,7 +110,8 @@
 				"meta",
 				"string.quoted.double.json",
 				"string.quoted.double.xml",
-				"storage.modifier.ts"
+				"storage.modifier.ts",
+				"source.cs keyword.control"
 			],
 			"settings": {
 				"foreground": "#A1E56Ae7"
