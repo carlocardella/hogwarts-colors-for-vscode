@@ -20,16 +20,18 @@
 	},
 	"tokenColors": [{
 			"settings": {
-				"foreground": "#eeffffff"
+				"foreground": "#cec9df"
 			}
 		},
 		{
 			"scope": [
 				"keyword",
-				"keyword.control"
+				"keyword.control",
+				"entity.name.tag.xml",
+				"entity.other.attribute-name.xml"
 			],
 			"settings": {
-				"foreground": "#e38634"
+				"foreground": "#d7571cf5"
 			}
 		},
 		{
@@ -38,7 +40,7 @@
 				"source.powershell punctuation.definition"
 			],
 			"settings": {
-				"foreground": "#d4a09bd5"
+				"foreground": "#a9b1b9b0"
 			}
 		},
 		{
@@ -48,31 +50,27 @@
 			}
 		},
 		{
-			"scope": "keyword",
-			"settings": {
-				"foreground": "#3190e9ec"
-			}
-		},
-		{
 			"scope": "string",
 			"settings": {
-				"foreground": "#C0C0C0"
+				"foreground": "#9c83c4"
 			}
 		},
 		{
 			"scope": [
 				"variable",
 				"keyword.other.variable.definition.powershell",
-				"support.constant.automatic.powershell"
+				"support.constant.automatic.powershell",
+				"support.type.property-name.json",
+				"entity.other.attribute-name.localname.xml"
 			],
 			"settings": {
-				"foreground": "#f1c120"
+				"foreground": "#F0B600"
 			}
 		},
 		{
 			"scope": "storage",
 			"settings": {
-				"foreground": "#688ee0"
+				"foreground": "#68BCEA"
 			}
 		},
 		{
@@ -84,22 +82,34 @@
 		{
 			"scope": "entity",
 			"settings": {
-				"foreground": "#faf173ea"
+				"foreground": "#FFD5B4"
 			}
 		},
 		{
-			"scope": "support",
+			"scope": [
+				"support",
+				"entity.name.tag.localname.xml"
+			],
 			"settings": {
 				"foreground": "#d91e1ef3"
 			}
 		},
 		{
-			"scope": "meta",
+			"scope": [
+				"meta",
+				"string.quoted.double.json",
+				"string.quoted.double.xml"
+			],
 			"settings": {
-				"foreground": "#6fd85ae7"
+				"foreground": "#A1E56Ae7"
 			}
 		},
-
+		{
+			"scope": "text.xml",
+			"settings": {
+				"foreground": "#d9d3ca"
+			}
+		}
 
 
 
@@ -558,8 +568,7 @@
 		// 		"markup.bold",
 		// 		"markup.bold string"
 		// 	],
-		// 	"settings": {
-		// 		"fontStyle": "bold",
+		// 	"settin#B0A9CB {
 		// 		"foreground": "#f07178"
 		// 	}
 		// },
@@ -573,8 +582,7 @@
 		// 		"markup.italic markup.bold string",
 		// 		"markup.quote markup.bold string"
 		// 	],
-		// 	"settings": {
-		// 		"fontStyle": "bold",
+		// 	"settin#B0A9CB {
 		// 		"foreground": "#f07178"
 		// 	}
 		// },
@@ -697,8 +705,7 @@
 		// 	"scope": [
 		// 		"meta.separator"
 		// 	],
-		// 	"settings": {
-		// 		"fontStyle": "bold",
+		// 	"settin#B0A9CB {
 		// 		"background": "#00000050",
 		// 		"foreground": "#65737E"
 		// 	}

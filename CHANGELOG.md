@@ -20,14 +20,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - CSV
 - C++
 - C#
-- css.css
+- CSS
 - Erlang
 - Go
 - Haskell
 - Html
 - Java
 - Javascript
-- json
 - Latex
 - Lua
 - Markdown
@@ -40,7 +39,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - R
 - Ruby
 - Typescript
-- Xml
 - Xslt
 
 ## [0.0.1] - 2017-06-20
@@ -51,5 +49,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Add sample language files, mostly from [https://github.com/aziz/tmTheme-Editor](https://github.com/aziz/tmTheme-Editor) (thanks!)
 - Initial languages:
   - Powershell
+  - json
+  - Xml
 
 [0.0.1]: https://github.com/xxxxx
