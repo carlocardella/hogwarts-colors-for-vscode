@@ -15,7 +15,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 #### languages
 
 - Batch
-- CoffeScript
 - Erlang
 - Haskell
 - Latex
@@ -36,6 +35,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - Xslt
   - Javascript
   - Typescript
+  - CoffeScript
   - Python
   - Markdown
   - CSV

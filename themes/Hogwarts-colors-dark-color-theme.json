@@ -81,7 +81,10 @@
 			}
 		},
 		{
-			"scope": "storage",
+			"scope": [
+				"storage",
+				"entity.name.function.coffee"
+			],
 			"settings": {
 				"foreground": "#68BCEA"
 			}
@@ -93,7 +96,10 @@
 			}
 		},
 		{
-			"scope": "entity",
+			"scope": [
+				"entity",
+				"variable.other.object.property.coffee"
+			],
 			"settings": {
 				"foreground": "#FFD5B4"
 			}
@@ -106,7 +112,8 @@
 				"source.php storage.type.class",
 				"source.php storage.type.function",
 				"storage.modifier.java",
-				"entity.name.function.c"
+				"entity.name.function.c",
+				"variable.other.object.coffee"
 			],
 			"settings": {
 				"foreground": "#f12a2af3"
