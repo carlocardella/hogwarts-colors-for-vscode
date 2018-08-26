@@ -16,7 +16,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Batch
 - CoffeScript
-- CSV
 - Erlang
 - Haskell
 - Latex
@@ -39,6 +38,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - Typescript
   - Python
   - Markdown
+  - CSV
   - C
   - C++
   - C#
