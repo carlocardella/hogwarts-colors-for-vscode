@@ -4,7 +4,7 @@ using Abp.Domain.Entities;
 using Abp.Domain.Repositories;
 
 namespace Abp.MemoryDb.Repositories {
-    //TODO: Implement thread-safety..?
+    //Implement thread-safety..?
     public class MemoryRepository<TEntity, TPrimaryKey> : AbpRepositoryBase<TEntity, TPrimaryKey>
         where TEntity : class, IEntity<TPrimaryKey> {
             private readonly IMemoryDatabaseProvider _databaseProvider;
