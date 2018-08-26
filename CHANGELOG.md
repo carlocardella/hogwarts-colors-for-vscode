@@ -19,11 +19,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - CoffeScript
 - CSV
 - C++
-- CSS
 - Erlang
 - Go
 - Haskell
-- Html
 - Java
 - Latex
 - Lua
@@ -51,5 +49,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - Python
   - Markdown
   - C#
-
+  - Html
+  - CSS
+  
 [0.0.1]: https://github.com/xxxxx

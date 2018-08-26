@@ -41,7 +41,8 @@
 				"source.powershell punctuation.definition",
 				"punctuation.definition.comment.js",
 				"punctuation.definition.comment.ts",
-				"punctuation.definition.comment.python"
+				"punctuation.definition.comment.python",
+				"punctuation.definition.comment.html"
 			],
 			"settings": {
 				"foreground": "#a9b1b9b0"
@@ -71,7 +72,9 @@
 				"keyword.other.variable.definition.powershell",
 				"support.constant.automatic.powershell",
 				"support.type.property-name.json",
-				"entity.other.attribute-name.localname.xml"
+				// "entity.other.attribute-name.localname.xml",
+				// "entity.other.attribute-name.html",
+				"entity.other.attribute-name"
 			],
 			"settings": {
 				"foreground": "#F0B600"
@@ -98,8 +101,9 @@
 		{
 			"scope": [
 				"support",
-				"entity.name.tag.localname.xml",
-				"storage.type.cs"
+				// "entity.name.tag.localname.xml",
+				"storage.type.cs",
+				"entity.name.tag"
 			],
 			"settings": {
 				"foreground": "#d91e1ef3"
@@ -111,7 +115,8 @@
 				"string.quoted.double.json",
 				"string.quoted.double.xml",
 				"storage.modifier.ts",
-				"source.cs keyword.control"
+				"source.cs keyword.control",
+				"source.css keyword.other.unit"
 			],
 			"settings": {
 				"foreground": "#A1E56Ae7"
@@ -119,7 +124,8 @@
 		},
 		{
 			"scope": [
-				"text.xml",
+				// "text.xml",
+				"text",
 				"source.python"
 			],
 			"settings": {
