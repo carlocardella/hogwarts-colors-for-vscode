@@ -114,7 +114,8 @@
 				"storage.modifier.java",
 				"entity.name.function.c",
 				"variable.other.object.coffee",
-				"keyword.control.conditional.batchfile"
+				"keyword.control.conditional.batchfile",
+				"entity.name.type.class.module.erlang"
 			],
 			"settings": {
 				"foreground": "#f12a2af3"
@@ -132,7 +133,8 @@
 				"source.php entity.other.inherited-class",
 				"entity.name.function.ruby",
 				"entity.name.function.go",
-				"entity.name.function.lua"
+				"entity.name.function.lua",
+				"variable.other.field.erlang"
 			],
 			"settings": {
 				"foreground": "#A1E56Ae7"

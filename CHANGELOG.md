@@ -14,7 +14,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 #### languages
 
-- Erlang
 - Haskell
 - Latex
 - Objective C
@@ -34,6 +33,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - CoffeScript
   - CSS
   - CSV
+  - Erlang
   - Go
   - Html
   - Java
