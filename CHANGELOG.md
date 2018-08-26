@@ -28,7 +28,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Objective C
 - Ocaml
 - Perl
-- Php
 - Plain Text
 - R
 - Ruby
@@ -51,5 +50,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - C#
   - Html
   - CSS
+  - Php
   
 [0.0.1]: https://github.com/xxxxx
