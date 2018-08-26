@@ -26,7 +26,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Haskell
 - Html
 - Java
-- Javascript
 - Latex
 - Lua
 - Markdown
@@ -35,11 +34,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Perl
 - Php
 - Plain Text
-- Python
 - R
 - Ruby
-- Typescript
-- Xslt
 
 ## [0.0.1] - 2017-06-20
 
@@ -51,5 +47,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - Powershell
   - json
   - Xml
+  - Xslt
+  - Javascript
+  - Typescript
+  - Python
 
 [0.0.1]: https://github.com/xxxxx

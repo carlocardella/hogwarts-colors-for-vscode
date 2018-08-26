@@ -28,7 +28,8 @@
 				"keyword",
 				"keyword.control",
 				"entity.name.tag.xml",
-				"entity.other.attribute-name.xml"
+				"entity.other.attribute-name.xml",
+				"entity.name.tag.namespace.xml"
 			],
 			"settings": {
 				"foreground": "#d7571cf5"
@@ -37,7 +38,10 @@
 		{
 			"scope": [
 				"comment",
-				"source.powershell punctuation.definition"
+				"source.powershell punctuation.definition",
+				"punctuation.definition.comment.js",
+				"punctuation.definition.comment.ts",
+				"punctuation.definition.comment.python"
 			],
 			"settings": {
 				"foreground": "#a9b1b9b0"
@@ -98,14 +102,18 @@
 			"scope": [
 				"meta",
 				"string.quoted.double.json",
-				"string.quoted.double.xml"
+				"string.quoted.double.xml",
+				"storage.modifier.ts"
 			],
 			"settings": {
 				"foreground": "#A1E56Ae7"
 			}
 		},
 		{
-			"scope": "text.xml",
+			"scope": [
+				"text.xml",
+				"source.python"
+			],
 			"settings": {
 				"foreground": "#d9d3ca"
 			}
