@@ -14,8 +14,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 #### languages
 
-- Latex
-- Ocaml
+- LaTeX
 
 ## [0.0.1] - 2017-06-20
 
@@ -31,6 +30,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - CoffeScript
   - CSS
   - CSV
+  - Ocaml
   - Erlang
   - Go
   - Haskell
