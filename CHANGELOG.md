@@ -28,7 +28,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Java
 - Latex
 - Lua
-- Markdown
 - Objective C
 - Ocaml
 - Perl
@@ -51,5 +50,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - Javascript
   - Typescript
   - Python
+  - Markdown
 
 [0.0.1]: https://github.com/xxxxx
