@@ -74,7 +74,8 @@
 				"support.type.property-name.json",
 				"entity.other.attribute-name",
 				"meta.function-call.c",
-				"punctuation.definition.variable.ruby"
+				"punctuation.definition.variable.ruby",
+				"punctuation.definition.variable.perl"
 			],
 			"settings": {
 				"foreground": "#F0B600"

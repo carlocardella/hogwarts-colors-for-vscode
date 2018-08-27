@@ -36,9 +36,31 @@ Visual Studio theme colors inspired by Harry Potter, Hogwarts and Hogwarts House
 
 - Lua ![Lua](screenshots/lua.png)
 
-- Objective C ![Objective C](screenshots/objective c.png)
+- Markdown ![Markdown](screenshots/markdown.png)
+
+- Objective C ![Objective C](screenshots/objective_c.png)
 
 - Ocaml ![Ocaml](screenshots/ocaml.png)
+
+- Perl ![Perl](screenshots/perl.png)
+
+- Php ![Php](screenshots/php.png)
+
+- Plain Text ![Plain Text](screenshots/plain_text.png)
+
+- Powershell ![Powershell](screenshots/powershell.png)
+
+- Puthon ![Python](screenshots/python.png)
+
+- R ![R](screenshots/r.png)
+
+- Ruby ![Ruby](screenshots/ruby.png)
+
+- Typescript ![Typescript](screenshots/typescript.png)
+
+- Xml ![Xml](screenshots/xml.png)
+
+- Xslt ![Xslt](screenshots/xslt.png)
 
 ### Installing
 
