@@ -5,90 +5,119 @@ Visual Studio theme colors inspired by Harry Potter, Hogwarts and Hogwarts House
 ## Languages
 
 Batch
+
 ![Batch](screenshots/batch.png)
 
 C
+
 ![C](screenshots/C.png)
 
 C++
+
 ![C++](screenshots/C++.png)
 
 Coffee Script
+
 ![Coffee Script](screenshots/CoffeeScript.png)
 
 C#
+
 ![C#](screenshots/CSharp.png)
 
 CSS
+
 ![CSS](screenshots/css.png)
 
 CSV
+
 ![CSV](screenshots/CSV.png)
 
 Erlang
+
 ![Erlang](screenshots/erlang.png)
 
 Go
+
 ![Go](screenshots/go.png)
 
 Haskell
+
 ![Haskell](screenshots/haskell.png)
 
 Html 
+
 ![Html](screenshots/html.png)
 
 Java 
+
 ![Java](screenshots/java.png)
 
 Javascript 
+
 ![Javascript](screenshots/javascript.png)
 
 JSon 
+
 ![Json](screenshots/json.png)
 
 LaTeX 
+
 ![LaTeX](screenshots/LaTeX.png)
 
 Lua 
+
 ![Lua](screenshots/lua.png)
 
 Markdown 
+
 ![Markdown](screenshots/markdown.png)
 
 Objective C 
+
 ![Objective C](screenshots/objective_c.png)
 
 Ocaml 
+
 ![Ocaml](screenshots/ocaml.png)
 
 Perl 
+
 ![Perl](screenshots/perl.png)
 
 Php 
+
 ![Php](screenshots/php.png)
 
 Plain Text 
+
 ![Plain Text](screenshots/plain_text.png)
 
 Powershell 
+
 ![Powershell](screenshots/powershell.png)
 
 Puthon 
+
 ![Python](screenshots/python.png)
 
 R 
+
 ![R](screenshots/r.png)
 
 Ruby 
+
 ![Ruby](screenshots/ruby.png)
 
 Typescript 
+
 ![Typescript](screenshots/typescript.png)
 
 Xml 
+
 ![Xml](screenshots/xml.png)
 
 Xslt 
+
 ![Xslt](screenshots/xslt.png)
 
 ### Installing
