@@ -11,6 +11,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Slytherin theme
 - Hufflepuff theme
 - Ravenclaw theme
+- Bash/Shell language
 
 ## [0.0.1] - 2018-08-25
 
