@@ -5,9 +5,22 @@
     "version": "0.0.1",
     "publisher": "CarloCardella",
     "icon": "hogwards_crest.png",
+    "galleryBanner": {
+        "color": "#222326",
+        "theme": "dark"
+    },
     "author": {
         "name": "Carlo Cardella",
         "email": "carloc@live.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/carlocardella/hogwarts-colors-for-vscode"
+    },
+    "homepage": "https://github.com/carlocardella/hogwarts-colors-for-vscode/blob/master/README.md",
+    "bugs": {
+        "email": "carloc@live.com",
+        "url": "https://github.com/carlocardella/hogwarts-colors-for-vscode/issues"
     },
     "keywords": [
         "Harry Potter",
