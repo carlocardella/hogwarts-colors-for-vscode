@@ -1,4 +1,8 @@
-.vscode/**
-.vscode-test/**
 .gitignore
+.vscode-test/**
+.vscode/**
+ColoursofPottermore_03.jpg
+fileTypes/*
+palette.css
+screenshots/*
 vsc-extension-quickstart.md
