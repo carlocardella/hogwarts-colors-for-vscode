@@ -4,63 +4,92 @@ Visual Studio theme colors inspired by Harry Potter, Hogwarts and Hogwarts House
 
 ## Languages
 
-Batch ![Batch](screenshots/batch.png)
+Batch
+![Batch](screenshots/batch.png)
 
-C ![C](screenshots/C.png)
+C
+![C](screenshots/C.png)
 
-C++ ![C++](screenshots/C++.png)
+C++
+![C++](screenshots/C++.png)
 
-Coffee Script ![Coffee Script](screenshots/CoffeeScript.png)
+Coffee Script
+![Coffee Script](screenshots/CoffeeScript.png)
 
-C# ![C#](screenshots/CSharp.png)
+C#
+![C#](screenshots/CSharp.png)
 
-CSS ![CSS](screenshots/css.png)
+CSS
+![CSS](screenshots/css.png)
 
-CSV ![CSV](screenshots/CSV.png)
+CSV
+![CSV](screenshots/CSV.png)
 
-Erlang ![Erlang](screenshots/erlang.png)
+Erlang
+![Erlang](screenshots/erlang.png)
 
-Go ![Go](screenshots/go.png)
+Go
+![Go](screenshots/go.png)
 
-Haskell ![Haskell](screenshots/haskell.png)
+Haskell
+![Haskell](screenshots/haskell.png)
 
-Html ![Html](screenshots/html.png)
+Html 
+![Html](screenshots/html.png)
 
-Java ![Java](screenshots/java.png)
+Java 
+![Java](screenshots/java.png)
 
-Javascript ![Javascript](screenshots/javascript.png)
+Javascript 
+![Javascript](screenshots/javascript.png)
 
-JSon ![Json](screenshots/json.png)
+JSon 
+![Json](screenshots/json.png)
 
-LaTeX ![LaTeX](screenshots/LaTeX.png)
+LaTeX 
+![LaTeX](screenshots/LaTeX.png)
 
-Lua ![Lua](screenshots/lua.png)
+Lua 
+![Lua](screenshots/lua.png)
 
-Markdown ![Markdown](screenshots/markdown.png)
+Markdown 
+![Markdown](screenshots/markdown.png)
 
-Objective C ![Objective C](screenshots/objective_c.png)
+Objective C 
+![Objective C](screenshots/objective_c.png)
 
-Ocaml ![Ocaml](screenshots/ocaml.png)
+Ocaml 
+![Ocaml](screenshots/ocaml.png)
 
-Perl ![Perl](screenshots/perl.png)
+Perl 
+![Perl](screenshots/perl.png)
 
-Php ![Php](screenshots/php.png)
+Php 
+![Php](screenshots/php.png)
 
-Plain Text ![Plain Text](screenshots/plain_text.png)
+Plain Text 
+![Plain Text](screenshots/plain_text.png)
 
-Powershell ![Powershell](screenshots/powershell.png)
+Powershell 
+![Powershell](screenshots/powershell.png)
 
-Puthon ![Python](screenshots/python.png)
+Puthon 
+![Python](screenshots/python.png)
 
-R ![R](screenshots/r.png)
+R 
+![R](screenshots/r.png)
 
-Ruby ![Ruby](screenshots/ruby.png)
+Ruby 
+![Ruby](screenshots/ruby.png)
 
-Typescript ![Typescript](screenshots/typescript.png)
+Typescript 
+![Typescript](screenshots/typescript.png)
 
-Xml ![Xml](screenshots/xml.png)
+Xml 
+![Xml](screenshots/xml.png)
 
-Xslt ![Xslt](screenshots/xslt.png)
+Xslt 
+![Xslt](screenshots/xslt.png)
 
 ### Installing
 
@@ -81,7 +110,7 @@ If you are using VSCode version 1.12+ you can customize the colors to your likin
 ## Credits
 
 - [tmTheme-Editor](https://github.com/aziz/tmTheme-Editor), for language samples
-- [Pottermore](https://www.pottermore.com), for ideas and guidelines about colors to use and their stories
+- [Pottermore](https://www.pottermore.com), for ideas and guidelines about colors to use and their meaning
     - [Colours](https://www.pottermore.com/writing-by-jk-rowling/colours)
     - [Red, green and shocking pink: the importance of wizarding world colours](https://www.pottermore.com/features/importance-of-wizarding-world-colours)
     - [How do you colour coordinate the wizarding world?](https://www.pottermore.com/features/Colour-coordinating-the-wizarding-world)
