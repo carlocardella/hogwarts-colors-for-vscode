@@ -126,7 +126,7 @@ This extension is available for free in the Visual Studio Code Marketplace
 
 ### What's new?
 
-Check the [Changelog](changelog.md)
+Check the [Changelog](CHANGELOG.md)
 
 ### Inconsistencies?
 

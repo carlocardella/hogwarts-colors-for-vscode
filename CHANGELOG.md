@@ -1,9 +1,3 @@
-# Change Log
-
-All notable changes to the "hogwarts-colors-for-vscode" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
 ## [Unreleased]
 
 - Light theme
@@ -13,7 +7,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Ravenclaw theme
 - Bash/Shell language
 
-## [0.0.1] - 2018-08-25
+## [0.0.1] - 2018-08-26
 
 ### Initial release
 
@@ -50,4 +44,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
   - Xml
   - Xslt
   
-[0.0.1]: https://github.com/xxxxx
+[0.0.1]: https://github.com/carlocardella/hogwarts-colors-for-vscode
