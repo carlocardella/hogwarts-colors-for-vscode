@@ -4,6 +4,11 @@
     "description": "VSCode color themes based on the four Hogwarts houses",
     "version": "0.0.1",
     "publisher": "CarloCardella",
+    "icon": "hogwards_crest.png",
+    "author": {
+        "name": "Carlo Cardella",
+        "email": "carloc@live.com"
+    },
     "engines": {
         "vscode": "^1.26.0"
     },
