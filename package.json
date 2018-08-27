@@ -9,6 +9,14 @@
         "name": "Carlo Cardella",
         "email": "carloc@live.com"
     },
+    "keywords": [
+        "Harry Potter",
+        "Hogwarts",
+        "Gryffindor",
+        "Slytherin",
+        "Ravenclaw",
+        "Hufflepuff"
+    ],
     "engines": {
         "vscode": "^1.26.0"
     },
