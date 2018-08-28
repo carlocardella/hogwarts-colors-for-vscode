@@ -1,0 +1,159 @@
+{
+	"name": "hogwarts-colors-light",
+	"type": "light",
+	"colors": {
+		"editor.background": "#F3F3F3",
+		"statusBar.background": "#F3F3F3",
+		"statusBar.foreground": "#222326",
+		"titleBar.activeBackground": "#F3F3F3",
+		"activityBar.background": "#F3F3F3",
+		"sideBar.background": "#F3F3F3",
+		"editor.foreground": "#222326",
+		"activityBar.foreground": "#222326",
+		"list.hoverBackground": "#DCDCDC",
+		"list.activeSelectionBackground": "#b3b2b2",
+		"badge.background": "#222326",
+		"sideBarTitle.foreground": "#222326",
+		"editor.lineHighlightBackground": "#B0A9CB23",
+		"tab.activeBorder": "#BD2A1B",
+		"activityBarBadge.background": "#BD2A1B",
+		"editorCursor.foreground": "#BD2A1B",
+		"editor.selectionBackground": "#B0A9CB48",
+		"editor.wordHighlightStrongBackground": "#B0A9CB48",
+		"editor.selectionHighlightBackground": "#cacaca65",
+		"editor.findMatchBackground": "#B0A9CB7a"
+	},
+	"tokenColors": [{
+			"settings": {
+				"foreground": "#afaabe"
+			}
+		},
+		{
+			"scope": [
+				"keyword",
+				"keyword.control",
+				"entity.name.tag.xml",
+				"entity.other.attribute-name.xml",
+				"entity.name.tag.namespace.xml",
+				"source.php storage.type",
+				"punctuation.definition.directive.c"
+			],
+			"settings": {
+				"foreground": "#d7571cf5"
+			}
+		},
+		{
+			"scope": [
+				"comment",
+				"comment.block",
+				"source.powershell punctuation.definition",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#9d9e9c"
+			}
+		},
+		{
+			"scope": [
+				"constant",
+				"source.cs entity.name",
+				"storage.modifier.import.java"
+			],
+			"settings": {
+				"foreground": "#b592e2e7"
+			}
+		},
+		{
+			"scope": [
+				"string",
+			],
+			"settings": {
+				"foreground": "#9c83c4"
+			}
+		},
+		{
+			"scope": [
+				"variable",
+				"keyword.other.variable.definition.powershell",
+				"support.constant.automatic.powershell",
+				"support.type.property-name.json",
+				"entity.other.attribute-name",
+				"meta.function-call.c",
+				"punctuation.definition.variable.ruby",
+				"punctuation.definition.variable.perl"
+			],
+			"settings": {
+				"foreground": "#b87801"
+			}
+		},
+		{
+			"scope": [
+				"storage",
+				"entity.name.function.coffee"
+			],
+			"settings": {
+				"foreground": "#68BCEA"
+			}
+		},
+		{
+			"scope": "punctuation",
+			"settings": {
+				"foreground": "#a0bcec"
+			}
+		},
+		{
+			"scope": [
+				"entity",
+				"variable.other.object.property.coffee"
+			],
+			"settings": {
+				"foreground": "#dbb598"
+			}
+		},
+		{
+			"scope": [
+				"support",
+				"storage.type.cs",
+				"entity.name.tag",
+				"source.php storage.type.class",
+				"source.php storage.type.function",
+				"storage.modifier.java",
+				"entity.name.function.c",
+				"variable.other.object.coffee",
+				"keyword.control.conditional.batchfile",
+				"entity.name.type.class.module.erlang"
+			],
+			"settings": {
+				"foreground": "#BD2A1B"
+			}
+		},
+		{
+			"scope": [
+				"meta",
+				"string.quoted.double.json",
+				"string.quoted.double.xml",
+				"storage.modifier.ts",
+				"source.cs keyword.control",
+				"source.css keyword.other.unit",
+				"source.php entity.name.type.class",
+				"source.php entity.other.inherited-class",
+				"entity.name.function.ruby",
+				"entity.name.function.go",
+				"entity.name.function.lua",
+				"variable.other.field.erlang"
+			],
+			"settings": {
+				"foreground": "#017431"
+			}
+		},
+		{
+			"scope": [
+				"text",
+				"source.python"
+			],
+			"settings": {
+				"foreground": "#d9d3ca"
+			}
+		}
+	]
+}
