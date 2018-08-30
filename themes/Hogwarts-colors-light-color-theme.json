@@ -22,7 +22,9 @@
 		"editor.selectionBackground": "#B0A9CB48",
 		"editor.wordHighlightStrongBackground": "#B0A9CB48",
 		"editor.selectionHighlightBackground": "#cacaca65",
-		"editor.findMatchBackground": "#B0A9CB7a"
+		"editor.findMatchBackground": "#B0A9CB7a",
+		"selection.background": "#e8fb156b",
+		"button.background": "#1735B1",
 	},
 	"tokenColors": [{
 			"settings": {
