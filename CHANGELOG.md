@@ -49,6 +49,5 @@
   - Typescript
   - Xml
   - Xslt
-  
-[0.0.2]: 
-[0.0.1]: https://github.com/carlocardella/hogwarts-colors-for-vscode
+
+<!-- [0.0.1]: https://github.com/carlocardella/hogwarts-colors-for-vscode -->
