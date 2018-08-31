@@ -24,7 +24,7 @@
 		"editor.selectionHighlightBackground": "#cacaca65",
 		"editor.findMatchBackground": "#B0A9CB7a",
 		"selection.background": "#e8fb156b",
-		"button.background": "#1735B1",
+		"button.background": "#00556B",
 	},
 	"tokenColors": [{
 			"settings": {
@@ -86,7 +86,7 @@
 				"punctuation.definition.variable.perl"
 			],
 			"settings": {
-				"foreground": "#b87801"
+				"foreground": "#d48b04"
 			}
 		},
 		{
@@ -95,7 +95,7 @@
 				"entity.name.function.coffee"
 			],
 			"settings": {
-				"foreground": "#68BCEA"
+				"foreground": "#5daedaea"
 			}
 		},
 		{
