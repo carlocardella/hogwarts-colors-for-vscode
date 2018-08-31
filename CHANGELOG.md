@@ -11,6 +11,7 @@
 - Added generic Hogwarts light workbench theme
 - Updated README, removed some screenshots for less popular languages (sorry if you use one of them! 🙂), screenshots are still available in the _screenshot_ folder on [Github](https://github.com/carlocardella/hogwarts-colors-for-vscode)
 - Renamed screenshot files to better describe which theme they belong to
+- Added Marketplace Preview tag
 
 ## [0.0.1] - 2018-08-26
 
