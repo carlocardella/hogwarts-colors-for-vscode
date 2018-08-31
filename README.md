@@ -1,124 +1,9 @@
 # Hogwarts colors for Visual Studio Code
 
 Visual Studio theme colors inspired by Harry Potter, Hogwarts and Hogwarts Houses colors and banners.
+Check the "screenshot" folder for samples of all themes in a number of different languages, feel free to contribute and add yours
 
-## Languages
-
-Batch
-
-![Batch](screenshots/batch.png)
-
-C
-
-![C](screenshots/C.png)
-
-C++
-
-![C++](screenshots/C++.png)
-
-Coffee Script
-
-![Coffee Script](screenshots/CoffeeScript.png)
-
-C#
-
-![C#](screenshots/CSharp.png)
-
-CSS
-
-![CSS](screenshots/css.png)
-
-CSV
-
-![CSV](screenshots/CSV.png)
-
-Erlang
-
-![Erlang](screenshots/erlang.png)
-
-Go
-
-![Go](screenshots/go.png)
-
-Haskell
-
-![Haskell](screenshots/haskell.png)
-
-Html 
-
-![Html](screenshots/html.png)
-
-Java 
-
-![Java](screenshots/java.png)
-
-Javascript 
-
-![Javascript](screenshots/javascript.png)
-
-JSon 
-
-![Json](screenshots/json.png)
-
-LaTeX 
-
-![LaTeX](screenshots/LaTeX.png)
-
-Lua 
-
-![Lua](screenshots/lua.png)
-
-Markdown 
-
-![Markdown](screenshots/markdown.png)
-
-Objective C 
-
-![Objective C](screenshots/objective_c.png)
-
-Ocaml 
-
-![Ocaml](screenshots/ocaml.png)
-
-Perl 
-
-![Perl](screenshots/perl.png)
-
-Php 
-
-![Php](screenshots/php.png)
-
-Plain Text 
-
-![Plain Text](screenshots/plain_text.png)
-
-Powershell 
-
-![Powershell](screenshots/powershell.png)
-
-Puthon 
-
-![Python](screenshots/python.png)
-
-R 
-
-![R](screenshots/r.png)
-
-Ruby 
-
-![Ruby](screenshots/ruby.png)
-
-Typescript 
-
-![Typescript](screenshots/typescript.png)
-
-Xml 
-
-![Xml](screenshots/xml.png)
-
-Xslt 
-
-![Xslt](screenshots/xslt.png)
+_Note: this themes family is still work in progress, please expect changes, even extensive ones till the first major release (e.g. 1.0.0)_
 
 ### Installing
 
@@ -145,3 +30,54 @@ If you are using VSCode version 1.12+ you can customize the colors to your likin
     - [How do you colour coordinate the wizarding world?](https://www.pottermore.com/features/Colour-coordinating-the-wizarding-world)
     - [Colours or Pottermore](https://images.ctfassets.net/bxd3o8b291gf/1o1zcpziH6uukemigE4yCa/b6895a88989fc821a23a58eac8b123ec/ColoursofPottermore_03.jpg?w=1330)
 - [damngoodshindig.com](http://damngoodshindig.com/2016/11/03/printable-hogwarts-house-crests/) for the Hogwarts and House crests
+
+## Workbench 
+
+Dark
+
+![Dark workbench](screenshots/howarts-dark-workbench.png)
+
+Light
+![Light](screenshots/hogwarts-light-workbench.png)
+
+## Languages
+
+C#
+
+![C#](screenshots/hogwarts-dark-CSharp.png)
+
+Javascript 
+
+![Javascript](screenshots/hogwarts-dark-javascript.png)
+
+JSon 
+
+![Json](screenshots/hogwarts-dark-json.png)
+
+Markdown 
+
+![Markdown](screenshots/hogwarts-dark-markdown.png)
+
+Perl 
+
+![Perl](screenshots/hogwarts-dark-perl.png)
+
+Php 
+
+![Php](screenshots/hogwarts-dark-php.png)
+
+Powershell 
+
+![Powershell](screenshots/hogwarts-dark-powershell.png)
+
+Python 
+
+![Python](screenshots/hogwarts-dark-python.png)
+
+Ruby 
+
+![Ruby](screenshots/hogwarts-dark-ruby.png)
+
+Xml 
+
+![Xml](screenshots/hogwarts-dark-xml.png)

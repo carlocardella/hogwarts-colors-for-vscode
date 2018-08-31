@@ -18,7 +18,9 @@
 		"editor.selectionHighlightBackground": "#cacaca65",
 		"editor.findMatchBackground": "#B0A9CB7a",
 		"button.background": "#8F6700",
-		"selection.background": "#83B545"
+		"selection.background": "#83B545",
+		"editorSuggestWidget.highlightForeground": "#D5A8A5",
+		"editorSuggestWidget.selectedBackground": "#af5b0275",
 	},
 	"tokenColors": [{
 			"settings": {
