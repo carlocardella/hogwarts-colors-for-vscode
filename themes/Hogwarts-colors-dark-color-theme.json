@@ -21,6 +21,8 @@
 		"selection.background": "#83B545",
 		"editorSuggestWidget.highlightForeground": "#D5A8A5",
 		"editorSuggestWidget.selectedBackground": "#af5b0275",
+		"extensionButton.prominentBackground": "#cf5a30",
+		"extensionButton.prominentHoverBackground": "#de724b"
 	},
 	"tokenColors": [{
 			"settings": {
