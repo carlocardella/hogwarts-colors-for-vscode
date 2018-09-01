@@ -1,0 +1,179 @@
+{
+	"name": "Gryffindor-dark",
+	"type": "dark",
+	"colors": {
+		"activityBar.background": "#280000f4",
+		"activityBarBadge.background": "#BD2A1B",
+		"button.background": "#8F6700",
+		"dropdown.background": "#583f0045",
+		"editor.background": "#280000f4",
+		"editor.findMatchBackground": "#B0A9CB7a",
+		"editor.foreground": "#e2ebf0",
+		"editor.lineHighlightBackground": "#B0A9CB23",
+		"editor.selectionBackground": "#B0A9CB48",
+		"editor.selectionHighlightBackground": "#cacaca65",
+		"editor.wordHighlightStrongBackground": "#B0A9CB48",
+		"editorCursor.foreground": "#BD2A1B",
+		"editorGroupHeader.tabsBackground": "#280000f4",
+		"editorPane.background": "#280000f4",
+		"editorSuggestWidget.highlightForeground": "#D5A8A5",
+		"editorSuggestWidget.selectedBackground": "#af5b0275",
+		"editorWidget.background": "#2f2927d8",
+		"extensionButton.prominentBackground": "#5bbe7ad3",
+		"extensionButton.prominentHoverBackground": "#89CA6F",
+		"gitDecoration.modifiedResourceForeground": "#47bc9b",
+		"input.background": "#a1823345",
+		"input.placeholderForeground": "#e2ebf0a0",
+		"list.activeSelectionBackground": "#745d42d5",
+		"list.focusBackground": "#63636378",
+		"list.hoverBackground": "#5a4f4be1",
+		"list.inactiveSelectionBackground": "#63636378",
+		"list.warningForeground": "#47bc9b",
+		"menu.selectionBackground": "#af5b0275",
+		"notificationCenterHeader.background": "#280000f4",
+		"notifications.background": "#280000f4",
+		"panel.background": "#280000f4",
+		"pickerGroup.foreground": "#efc404d1",
+		"selection.background": "#062f4aa5",
+		"sideBar.background": "#280000f4",
+		"sideBarTitle.foreground": "#B0A9CB",
+		"statusBar.background": "#280000f4",
+		"tab.activeBorder": "#BD2A1B",
+		"tab.inactiveBackground": "#280000f4",
+		"terminal.background": "#280000f4",
+		"titleBar.activeBackground": "#280000f4",
+	},
+	"tokenColors": [{
+			"settings": {
+				"foreground": "#cec9df"
+			}
+		},
+		{
+			"scope": [
+				"keyword",
+				"keyword.control",
+				"entity.name.tag.xml",
+				"entity.other.attribute-name.xml",
+				"entity.name.tag.namespace.xml",
+				"source.php storage.type",
+				"punctuation.definition.directive.c"
+			],
+			"settings": {
+				"foreground": "#d7571cf5"
+			}
+		},
+		{
+			"scope": [
+				"comment",
+				"comment.block",
+				"source.powershell punctuation.definition",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#a9b1b9b0"
+			}
+		},
+		{
+			"scope": [
+				"constant",
+				"source.cs entity.name",
+				"storage.modifier.import.java"
+			],
+			"settings": {
+				"foreground": "#bf9dece7"
+			}
+		},
+		{
+			"scope": [
+				"string",
+			],
+			"settings": {
+				"foreground": "#9c83c4"
+			}
+		},
+		{
+			"scope": [
+				"variable",
+				"keyword.other.variable.definition.powershell",
+				"support.constant.automatic.powershell",
+				"support.type.property-name.json",
+				"entity.other.attribute-name",
+				"meta.function-call.c",
+				"punctuation.definition.variable.ruby",
+				"punctuation.definition.variable.perl"
+			],
+			"settings": {
+				"foreground": "#F0B600"
+			}
+		},
+		{
+			"scope": [
+				"storage",
+				"entity.name.function.coffee"
+			],
+			"settings": {
+				"foreground": "#68BCEA"
+			}
+		},
+		{
+			"scope": "punctuation",
+			"settings": {
+				"foreground": "#a0bcec"
+			}
+		},
+		{
+			"scope": [
+				"entity",
+				"variable.other.object.property.coffee"
+			],
+			"settings": {
+				"foreground": "#FFD5B4"
+			}
+		},
+		{
+			"scope": [
+				"support",
+				"storage.type.cs",
+				"entity.name.tag",
+				"source.php storage.type.class",
+				"source.php storage.type.function",
+				"storage.modifier.java",
+				"entity.name.function.c",
+				"variable.other.object.coffee",
+				"keyword.control.conditional.batchfile",
+				"entity.name.type.class.module.erlang"
+			],
+			"settings": {
+				"foreground": "#f12a2af3"
+			}
+		},
+		{
+			"scope": [
+				"meta",
+				"string.quoted.double.json",
+				"string.quoted.double.xml",
+				"storage.modifier.ts",
+				"source.cs keyword.control",
+				"source.css keyword.other.unit",
+				"source.php entity.name.type.class",
+				"source.php entity.other.inherited-class",
+				"entity.name.function.ruby",
+				"entity.name.function.go",
+				"entity.name.function.lua",
+				"variable.other.field.erlang"
+			],
+			"settings": {
+				"foreground": "#A1E56Ae7"
+			}
+		},
+		{
+			"scope": [
+				"text",
+				"source.python"
+			],
+			"settings": {
+				"foreground": "#d9d3ca"
+			}
+		}
+	]
+}
