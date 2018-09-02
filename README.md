@@ -1,4 +1,12 @@
+
 # Hogwarts colors for Visual Studio Code
+
+![Version](http://vsmarketplacebadge.apphb.com/version/carlocardella.hogwarts-colors-dark.svg)
+![Installs](http://vsmarketplacebadge.apphb.com/installs/carlocardella.hogwarts-colors-dark.svg)
+![Rating](http://vsmarketplacebadge.apphb.com/rating/carlocardella.hogwarts-colors-dark.svg)
+[![GitHub issues](https://img.shields.io/github/issues/carlocardella/hogwarts-colors-for-vscode.svg)](https://github.com/carlocardella/hogwarts-colors-for-vscode/issues)
+[![GitHub license](https://img.shields.io/github/license/carlocardella/hogwarts-colors-for-vscode.svg)](https://github.com/carlocardella/hogwarts-colors-for-vscode/blob/master/LICENSE.md)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/carlocardella/hogwarts-colors-for-vscode.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fcarlocardella%2Fhogwarts-colors-for-vscode)
 
 Visual Studio theme colors inspired by Harry Potter, Hogwarts and Hogwarts Houses colors and banners.
 Check the "screenshot" folder for samples of all themes in a number of different languages, feel free to contribute and add yours
