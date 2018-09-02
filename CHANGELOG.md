@@ -1,14 +1,18 @@
 ## [Unreleased]
 
-- Gryffindor theme
-- Slytherin theme
-- Hufflepuff theme
-- Ravenclaw theme
+- Gryffindor light theme
+- Slytherin dark theme
+- Slytherin light theme
+- Hufflepuff dark theme
+- Hufflepuff light theme
+- Ravenclaw dark theme
+- Ravenclaw light theme
 - Bash/Shell language
 
 ## [0.2.0] - 2018-08-31
 
 - Added Gryffindor dark theme
+- Workbench color improvements for both Hogwarts Dark and Light
 
 ## [0.1.0] - 2018-08-31
 

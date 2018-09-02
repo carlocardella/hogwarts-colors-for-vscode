@@ -7,6 +7,7 @@
 		"activityBarBadge.background": "#cf5244",
 		"badge.background": "#cf5244",
 		"badge.foreground": "#F3F3F3",
+		"breadcrumbPicker.background": "#F3F3F3",
 		"button.background": "#00556B",
 		"diffEditor.insertedTextBackground": "#d4ecdc65",
 		"diffEditor.removedTextBackground": "#f1cfcb7f",

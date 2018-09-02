@@ -33,12 +33,15 @@ If you are using VSCode version 1.12+ you can customize the colors to your likin
 
 ## Workbench 
 
-Dark
+Hogwarts Dark
 
 ![Dark workbench](screenshots/howarts-dark-workbench.png)
 
-Light
+Hogwarts Light
 ![Light](screenshots/hogwarts-light-workbench.png)
+
+Gryffindor Dark
+![Gryffindor Dark](screenshots/gryffindor-dark-workbench.png)
 
 ## Languages
 
