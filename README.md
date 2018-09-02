@@ -1,9 +1,9 @@
 
 # Hogwarts colors for Visual Studio Code
 
-![Version](http://vsmarketplacebadge.apphb.com/version/carlocardella.hogwarts-colors-dark.svg)
-![Installs](http://vsmarketplacebadge.apphb.com/installs/carlocardella.hogwarts-colors-dark.svg)
-![Rating](http://vsmarketplacebadge.apphb.com/rating/carlocardella.hogwarts-colors-dark.svg)
+[![Version](http://vsmarketplacebadge.apphb.com/version/carlocardella.hogwarts-colors-dark.svg)](https://marketplace.visualstudio.com/items?itemName=CarloCardella.hogwarts-colors-dark)
+[![Installs](http://vsmarketplacebadge.apphb.com/installs/carlocardella.hogwarts-colors-dark.svg)](https://marketplace.visualstudio.com/items?itemName=CarloCardella.hogwarts-colors-dark)
+[![Rating](http://vsmarketplacebadge.apphb.com/rating/carlocardella.hogwarts-colors-dark.svg)]()
 [![GitHub issues](https://img.shields.io/github/issues/carlocardella/hogwarts-colors-for-vscode.svg)](https://github.com/carlocardella/hogwarts-colors-for-vscode/issues)
 [![GitHub license](https://img.shields.io/github/license/carlocardella/hogwarts-colors-for-vscode.svg)](https://github.com/carlocardella/hogwarts-colors-for-vscode/blob/master/LICENSE.md)
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/carlocardella/hogwarts-colors-for-vscode.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fcarlocardella%2Fhogwarts-colors-for-vscode)
