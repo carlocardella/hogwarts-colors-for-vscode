@@ -51,6 +51,9 @@ Hogwarts Light
 Gryffindor Dark
 ![Gryffindor Dark](screenshots/gryffindor-dark-workbench.png)
 
+Slythering Dark
+![Slytherin Dark](screenshots/slytherin-dark-workbench.png)
+
 ## Languages
 
 C#

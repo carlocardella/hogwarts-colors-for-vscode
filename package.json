@@ -37,8 +37,7 @@
         "Themes"
     ],
     "contributes": {
-        "themes": [
-            {
+        "themes": [{
                 "label": "Hogwarts colors dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Hogwarts-colors-dark-color-theme.json"
@@ -52,6 +51,11 @@
                 "label": "Gryffindor dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Gryffindor-dark-color-theme.json"
+            },
+            {
+                "label": "Slytherin dark",
+                "uiTheme": "vs-dark",
+                "path": "/themes/Slytherin-dark-color-theme.json"
             }
         ]
     }

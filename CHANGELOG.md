@@ -9,12 +9,16 @@
 - Ravenclaw light theme
 - Bash/Shell language
 
-## [0.2.0] - 2018-08-31
+## [0.4.0] - 2018-09-03
+
+- Added Slytherin dark theme
+
+## [0.3.0] - 2018-08-31
 
 - Added Gryffindor dark theme
 - Workbench color improvements for both Hogwarts Dark and Light
 
-## [0.1.0] - 2018-08-31
+## [0.2.0] - 2018-08-31
 
 - Added generic Hogwarts light workbench theme
 - Updated README, removed some screenshots for less popular languages (sorry if you use one of them! 🙂), screenshots are still available in the _screenshot_ folder on [Github](https://github.com/carlocardella/hogwarts-colors-for-vscode)
