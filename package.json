@@ -55,7 +55,7 @@
             {
                 "label": "Slytherin dark",
                 "uiTheme": "vs-dark",
-                "path": "/themes/Slytherin-dark-color-theme.json"
+                "path": "./themes/Slytherin-dark-color-theme.json"
             }
         ]
     }
