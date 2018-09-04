@@ -2,7 +2,7 @@
     "name": "hogwarts-colors-dark",
     "displayName": "Hogwarts colors for VSCode",
     "description": "VSCode color themes based on the four Hogwarts houses",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "publisher": "CarloCardella",
     "preview": true,
     "icon": "hogwards_crest.png",
@@ -37,7 +37,8 @@
         "Themes"
     ],
     "contributes": {
-        "themes": [{
+        "themes": [
+            {
                 "label": "Hogwarts colors dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Hogwarts-colors-dark-color-theme.json"
