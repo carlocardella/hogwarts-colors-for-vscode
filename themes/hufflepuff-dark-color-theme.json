@@ -3,8 +3,8 @@
     "type": "dark",
     "colors": {
         "activityBar.background": "#453d17",
-        "activityBarBadge.background": "#442007d1",
-        "badge.background": "#442007d1",
+        "activityBarBadge.background": "#9e4009da",
+        "badge.background": "#8f3a09da",
         "breadcrumbPicker.background": "#453d17",
         "button.background": "#8F6700",
         "diffEditor.insertedTextBackground": "#64be8165",
@@ -16,7 +16,7 @@
         "editor.selectionBackground": "#B0A9CB48",
         "editor.selectionHighlightBackground": "#cacaca65",
         "editor.wordHighlightStrongBackground": "#B0A9CB48",
-        "editorCursor.foreground": "#342c00",
+        "editorCursor.foreground": "#66b7cf",
         "editorGroupHeader.tabsBackground": "#453d17",
         "editorLineNumber.activeForeground": "#f1f1f1",
         "editorLineNumber.foreground": "#d4d4d4",
@@ -44,10 +44,11 @@
         "sideBar.background": "#453d17",
         "sideBarTitle.foreground": "#B0A9CB",
         "statusBar.background": "#453d17",
-        "tab.activeBorder": "#b29400",
+        "tab.activeBorder": "#B37F04",
         "tab.inactiveBackground": "#453d17",
         "terminal.background": "#453d17",
         "titleBar.activeBackground": "#453d17",
+
     },
     "tokenColors": [{
             "settings": {
@@ -85,7 +86,7 @@
                 "storage.modifier.import.java"
             ],
             "settings": {
-                "foreground": "#48c4b6"
+                "foreground": "#ce7474e8"
             }
         },
         {
@@ -117,7 +118,7 @@
                 "entity.name.function.coffee"
             ],
             "settings": {
-                "foreground": "#68BCEA"
+                "foreground": "#70a3be"
             }
         },
         {

@@ -56,6 +56,11 @@
                 "label": "Slytherin dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Slytherin-dark-color-theme.json"
+            },
+            {
+                "label": "Hufflepuff dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Hufflepuff-dark-workbench.json"
             }
         ]
     }

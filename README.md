@@ -54,6 +54,9 @@ Gryffindor Dark
 Slythering Dark
 ![Slytherin Dark](screenshots/slytherin-dark-workbench.png)
 
+Hufflepuff Dark
+![Hufflepuff Dark](screenshots/hufflepuff-dark-workbench.png)
+
 ## Languages
 
 C#

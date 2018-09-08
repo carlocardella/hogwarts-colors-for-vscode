@@ -1,5 +1,6 @@
 {
     "markdown.styles": [
         "themes/markdownStyle.css"
-    ]
+    ],
+    "editor.formatOnSave": true
 }
