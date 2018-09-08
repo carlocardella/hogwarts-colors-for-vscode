@@ -37,8 +37,7 @@
         "Themes"
     ],
     "contributes": {
-        "themes": [
-            {
+        "themes": [{
                 "label": "Hogwarts colors dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Hogwarts-colors-dark-color-theme.json"
@@ -61,7 +60,7 @@
             {
                 "label": "Hufflepuff dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Hufflepuff-dark-workbench.json"
+                "path": "./themes/hufflepuff-dark-color-theme.json"
             }
         ]
     }
