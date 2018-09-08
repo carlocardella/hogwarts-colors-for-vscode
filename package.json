@@ -1,67 +1,68 @@
 {
-    "name": "hogwarts-colors-dark",
-    "displayName": "Hogwarts colors for VSCode",
-    "description": "VSCode color themes based on the four Hogwarts houses",
-    "version": "0.5.0",
-    "publisher": "CarloCardella",
-    "preview": true,
-    "icon": "hogwards_crest.png",
-    "galleryBanner": {
-        "color": "#222326",
-        "theme": "dark"
-    },
-    "author": {
-        "name": "Carlo Cardella",
-        "email": "carloc@live.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/carlocardella/hogwarts-colors-for-vscode"
-    },
-    "homepage": "https://github.com/carlocardella/hogwarts-colors-for-vscode/blob/master/README.md",
-    "bugs": {
-        "email": "carloc@live.com",
-        "url": "https://github.com/carlocardella/hogwarts-colors-for-vscode/issues"
-    },
-    "keywords": [
-        "Harry Potter",
-        "Gryffindor",
-        "Slytherin",
-        "Ravenclaw",
-        "Hufflepuff"
-    ],
-    "engines": {
-        "vscode": "^1.26.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [{
-                "label": "Hogwarts colors dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Hogwarts-colors-dark-color-theme.json"
-            },
-            {
-                "label": "Hogwarts colors light",
-                "uiTheme": "vs",
-                "path": "./themes/Hogwarts-colors-light-color-theme.json"
-            },
-            {
-                "label": "Gryffindor dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Gryffindor-dark-color-theme.json"
-            },
-            {
-                "label": "Slytherin dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Slytherin-dark-color-theme.json"
-            },
-            {
-                "label": "Hufflepuff dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/hufflepuff-dark-color-theme.json"
-            }
-        ]
-    }
+  "name": "hogwarts-colors-dark",
+  "displayName": "Hogwarts colors for VSCode",
+  "description": "VSCode color themes based on the four Hogwarts houses",
+  "version": "0.5.1",
+  "publisher": "CarloCardella",
+  "preview": true,
+  "icon": "hogwards_crest.png",
+  "galleryBanner": {
+    "color": "#222326",
+    "theme": "dark"
+  },
+  "author": {
+    "name": "Carlo Cardella",
+    "email": "carloc@live.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlocardella/hogwarts-colors-for-vscode"
+  },
+  "homepage": "https://github.com/carlocardella/hogwarts-colors-for-vscode/blob/master/README.md",
+  "bugs": {
+    "email": "carloc@live.com",
+    "url": "https://github.com/carlocardella/hogwarts-colors-for-vscode/issues"
+  },
+  "keywords": [
+    "Harry Potter",
+    "Gryffindor",
+    "Slytherin",
+    "Ravenclaw",
+    "Hufflepuff"
+  ],
+  "engines": {
+    "vscode": "^1.26.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hogwarts colors dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Hogwarts-colors-dark-color-theme.json"
+      },
+      {
+        "label": "Hogwarts colors light",
+        "uiTheme": "vs",
+        "path": "./themes/Hogwarts-colors-light-color-theme.json"
+      },
+      {
+        "label": "Gryffindor dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Gryffindor-dark-color-theme.json"
+      },
+      {
+        "label": "Slytherin dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Slytherin-dark-color-theme.json"
+      },
+      {
+        "label": "Hufflepuff dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hufflepuff-dark-color-theme.json"
+      }
+    ]
+  }
 }
