@@ -3,9 +3,13 @@
 - Gryffindor light theme
 - Slytherin light theme
 - Hufflepuff light theme
-- Ravenclaw dark theme
 - Ravenclaw light theme
 - Bash/Shell language
+
+## [0.6.0] - 2018-09-08
+
+- Added Ravenclaw dark theme
+- Set VSCode compatibility to 1.21
 
 ## [0.5.0] - 2018-09-08
 

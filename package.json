@@ -31,14 +31,13 @@
     "Hufflepuff"
   ],
   "engines": {
-    "vscode": "^1.26.0"
+    "vscode": "^1.21.0"
   },
   "categories": [
     "Themes"
   ],
   "contributes": {
-    "themes": [
-      {
+    "themes": [{
         "label": "Hogwarts colors dark",
         "uiTheme": "vs-dark",
         "path": "./themes/Hogwarts-colors-dark-color-theme.json"
@@ -62,6 +61,11 @@
         "label": "Hufflepuff dark",
         "uiTheme": "vs-dark",
         "path": "./themes/hufflepuff-dark-color-theme.json"
+      },
+      {
+        "label": "Ravenclaw Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ravenclaw-dark-color-theme.json"
       }
     ]
   }
