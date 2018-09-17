@@ -66,6 +66,11 @@
         "label": "Ravenclaw Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/Ravenclaw-dark-color-theme.json"
+      },
+      {
+        "label": "Gryffindor Light",
+        "uiTheme": "vs",
+        "path": "./themes/Gryffindor-light-color-theme.json"
       }
     ]
   }
