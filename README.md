@@ -51,6 +51,9 @@ Hogwarts Light
 Gryffindor Dark
 ![Gryffindor Dark](screenshots/gryffindor-dark-workbench.png)
 
+Gryffindor Light
+![Gryffindor Light](screenshots/gryffindor-light-workbench.png)
+
 Slythering Dark
 ![Slytherin Dark](screenshots/slytherin-dark-workbench.png)
 

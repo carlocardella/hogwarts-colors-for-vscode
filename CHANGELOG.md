@@ -6,6 +6,11 @@
 - Ravenclaw light theme
 - Bash/Shell language
 
+
+## [0.7.0] - 2018-10-19
+
+- Added Gryffindor light theme
+
 ## [0.6.0] - 2018-09-08
 
 - Added Ravenclaw dark theme
