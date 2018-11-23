@@ -6,6 +6,9 @@
 - Ravenclaw light theme
 - Bash/Shell language
 
+## [0.8.0] - 2018-11-23
+
+- 
 
 ## [0.7.0] - 2018-10-19
 
