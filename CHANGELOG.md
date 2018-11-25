@@ -8,7 +8,10 @@
 
 ## [0.8.0] - 2018-11-23
 
-- 
+- Temporarily disable Gryffindor Light theme, to be reworked
+- Add support for tab.activeModifiedBorder
+- Update powershell punctuation and variable color
+- Update powerhell variable definition ($ sign is not the same color as the variable it defines)
 
 ## [0.7.0] - 2018-10-19
 

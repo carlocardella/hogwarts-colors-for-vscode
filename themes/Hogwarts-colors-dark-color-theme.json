@@ -19,6 +19,7 @@
 		"editorSuggestWidget.selectedBackground": "#af5b0275",
 		"extensionButton.prominentBackground": "#cf5a30",
 		"extensionButton.prominentHoverBackground": "#de724b",
+		"focusBorder": "#f0b80067",
 		"list.errorForeground": "#ff503c",
 		"list.warningForeground": "#F0B600",
 		"selection.background": "#83B545",
@@ -26,6 +27,7 @@
 		"sideBarTitle.foreground": "#B0A9CB",
 		"statusBar.background": "#222326",
 		"tab.activeBorder": "#BD2A1B",
+		"tab.activeModifiedBorder": "#83B545",
 		"titleBar.activeBackground": "#222326",
 	},
 	"tokenColors": [{
@@ -85,7 +87,8 @@
 				"entity.other.attribute-name",
 				"meta.function-call.c",
 				"punctuation.definition.variable.ruby",
-				"punctuation.definition.variable.perl"
+				"punctuation.definition.variable.perl",
+				"punctuation.definition.variable.powershell"
 			],
 			"settings": {
 				"foreground": "#F0B600"
@@ -158,6 +161,15 @@
 			],
 			"settings": {
 				"foreground": "#d9d3ca"
+			}
+		},
+		{
+			"scope": [
+				"source.powershell punctuation.section.group",
+				"variable.other.member.powershell",
+			],
+			"settings": {
+				"foreground": "#b63274"
 			}
 		}
 	]
