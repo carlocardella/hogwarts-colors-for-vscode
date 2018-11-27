@@ -81,14 +81,15 @@
 		{
 			"scope": [
 				"variable",
-				"keyword.other.variable.definition.powershell",
-				"support.constant.automatic.powershell",
-				"support.type.property-name.json",
+				"constant.language.powershell",
 				"entity.other.attribute-name",
+				"keyword.other.variable.definition.powershell",
 				"meta.function-call.c",
-				"punctuation.definition.variable.ruby",
 				"punctuation.definition.variable.perl",
-				"punctuation.definition.variable.powershell"
+				"punctuation.definition.variable.powershell",
+				"punctuation.definition.variable.ruby",
+				"support.constant.automatic.powershell",
+				"support.type.property-name.json"
 			],
 			"settings": {
 				"foreground": "#F0B600"

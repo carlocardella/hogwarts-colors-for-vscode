@@ -6,6 +6,12 @@
 - Ravenclaw light theme
 - Bash/Shell language
 
+
+## [0.8.1] - 2018-11-26
+
+- Hogwarts Dark: fix constant.language.powershell color, (e.g. $null), make it consistent with the $ sign
+
+
 ## [0.8.0] - 2018-11-23
 
 - Temporarily disable Gryffindor Light theme, to be reworked

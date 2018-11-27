@@ -45,6 +45,7 @@ process {
             }
         }
 
+        $hashTable = $null
         $hashTable = @{
             'value1'='one';
             'value2'='two'
