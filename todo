@@ -2,3 +2,17 @@ Hogwarts Dark:
     ✔ tab.activeModifiedBorder does not work properly? the top border is not colored as expected @done(18-11-24 21:33)
         - must enable workbench.editor.highlightModifiedTabs in user settings
 
+Hogwarts Light:
+    ☐ enable tab.activeModifiedBorder
+
+Gryffindor Dark:
+    ☐ enable tab.activeModifiedBorder
+
+Slitheryn Dark:
+    ☐ enable tab.activeModifiedBorder
+
+Hufflepuff Dark:
+    ☐ enable tab.activeModifiedBorder
+
+Ravenclaw Dark:
+    ☐ enable tab.activeModifiedBorder
