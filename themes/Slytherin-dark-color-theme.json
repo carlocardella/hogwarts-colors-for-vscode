@@ -43,6 +43,7 @@
         "sideBarTitle.foreground": "#B0A9CB",
         "statusBar.background": "#002800",
         "tab.activeBorder": "#8f5bffed",
+        "tab.activeModifiedBorder": "#8EA142",
         "tab.inactiveBackground": "#002800",
         "terminal.background": "#002800",
         "titleBar.activeBackground": "#002800",
