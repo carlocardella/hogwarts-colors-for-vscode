@@ -7,9 +7,10 @@ Hogwarts Light:
 
 Gryffindor Dark:
     ☐ enable tab.activeModifiedBorder
+    ☐ color the debug floating bar
 
 Slitheryn Dark:
-    ☐ enable tab.activeModifiedBorder
+    ✔ enable tab.activeModifiedBorder @done(18-11-28 08:06)
 
 Hufflepuff Dark:
     ☐ enable tab.activeModifiedBorder
