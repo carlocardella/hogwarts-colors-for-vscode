@@ -8,22 +8,26 @@ Hogwarts Light:
 Gryffindor Dark:
     ☐ enable tab.activeModifiedBorder
     ☐ color the debug floating bar
+    ☐ tab.border
 
 Slitheryn Dark:
     ✔ enable tab.activeModifiedBorder @done(18-11-28 08:06)
     ☐ color the debug floating bar
+    ☐ tab.border
 
 Hufflepuff Dark:
-    ☐ enable tab.activeModifiedBorder
+    ✔ enable tab.activeModifiedBorder @done(18-11-29 06:10)
     ☐ color the debug floating bar
+    ✔ tab.border @done(18-11-29 06:13)
 
 Ravenclaw Dark:
     ✔ enable tab.activeModifiedBorder @done(18-11-29 06:06)
     ☐ color the debug floating bar
+    ☐ tab.border
 
 Gryffindor Light:
 
-Slitheryn Light: 
+Slitheryn Light:
 
 Hufflepuff Light:
 
