@@ -7,6 +7,12 @@
 - Bash/Shell language
 
 
+## [0.8.2] - 2018-11-29
+
+- update tab.border color for hufflepuff dark
+- enable tab.activeModifiedBorder for Ravenclaw Dark
+- enable tab.activeModifiedBorder for Slytherin Dark
+
 ## [0.8.1] - 2018-11-26
 
 - Hogwarts Dark: fix constant.language.powershell color, (e.g. $null), make it consistent with the $ sign
