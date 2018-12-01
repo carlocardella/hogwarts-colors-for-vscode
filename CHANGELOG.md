@@ -6,6 +6,9 @@
 - Ravenclaw light theme
 - Bash/Shell language
 
+## [0.8.3] - 2018-11-30
+
+- update debug toolbar background color for all themes
 
 ## [0.8.2] - 2018-11-29
 
