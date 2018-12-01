@@ -47,6 +47,7 @@
         "tab.activeBorder": "#B37F04",
         "tab.inactiveBackground": "#453d17",
         "tab.border": "#453D17",
+        "debugToolBar.background": "#453D17",
         "terminal.background": "#453d17",
         "titleBar.activeBackground": "#453d17",
     },
