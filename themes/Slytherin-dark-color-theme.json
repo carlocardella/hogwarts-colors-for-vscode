@@ -31,6 +31,7 @@
         "list.focusBackground": "#636363a5",
         "list.hoverBackground": "#4b5a4fe1",
         "list.inactiveSelectionBackground": "#636363a5",
+        "debugToolBar.background": "#002800",
         "list.warningForeground": "#e3984c",
         "menu.background": "#0c441b",
         "menu.selectionBackground": "#636363a5",
