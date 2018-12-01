@@ -27,6 +27,7 @@
 		"gitDecoration.modifiedResourceForeground": "#47bc9b",
 		"input.background": "#432001",
 		"input.placeholderForeground": "#e2ebf0a0",
+		"debugToolBar.background": "#250000",
 		"list.activeSelectionBackground": "#745d42d5",
 		"list.focusBackground": "#6363638b",
 		"list.hoverBackground": "#5a4f4be1",
