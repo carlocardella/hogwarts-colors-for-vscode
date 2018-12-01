@@ -34,6 +34,7 @@
         "list.hoverBackground": "#747474a1",
         "list.inactiveSelectionBackground": "#636363a5",
         "list.warningForeground": "#e3984c",
+        "debugToolBar.background": "#22254A",
         "menu.background": "#181a3d",
         "menu.selectionBackground": "#636363a5",
         "notificationCenterHeader.background": "#22254A",
