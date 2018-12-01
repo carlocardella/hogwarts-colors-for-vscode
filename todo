@@ -3,27 +3,27 @@ Hogwarts Dark:
         - must enable workbench.editor.highlightModifiedTabs in user settings
 
 Hogwarts Light:
-    ☐ enable tab.activeModifiedBorder
+    ✔ enable tab.activeModifiedBorder @done(18-12-01 10:02)
 
 Gryffindor Dark:
-    ☐ enable tab.activeModifiedBorder
-    ☐ color the debug floating bar
-    ☐ tab.border
+    ✔ enable tab.activeModifiedBorder @done(18-12-01 10:02)
+    ✔ color the debug floating bar @done(18-12-01 10:01)
+    ✔ tab.border @done(18-12-01 10:01)
 
 Slitheryn Dark:
     ✔ enable tab.activeModifiedBorder @done(18-11-28 08:06)
-    ☐ color the debug floating bar
-    ☐ tab.border
+    ✔ color the debug floating bar @done(18-12-01 10:01)
+    ✔ tab.border @done(18-12-01 10:01)
 
 Hufflepuff Dark:
     ✔ enable tab.activeModifiedBorder @done(18-11-29 06:10)
-    ☐ color the debug floating bar
+    ✔ color the debug floating bar @done(18-12-01 10:01)
     ✔ tab.border @done(18-11-29 06:13)
 
 Ravenclaw Dark:
     ✔ enable tab.activeModifiedBorder @done(18-11-29 06:06)
-    ☐ color the debug floating bar
-    ☐ tab.border
+    ✔ color the debug floating bar @done(18-12-01 10:01)
+    ✔ tab.border @done(18-12-01 10:01)
 
 Gryffindor Light:
 
