@@ -27,7 +27,7 @@
 		"sideBarTitle.foreground": "#B0A9CB",
 		"statusBar.background": "#222326",
 		"tab.activeBorder": "#BD2A1B",
-		"tab.border": "#222326",
+		"tab.border": "#2D2D2D",
 		"tab.activeModifiedBorder": "#83B545",
 		"titleBar.activeBackground": "#222326",
 	},
