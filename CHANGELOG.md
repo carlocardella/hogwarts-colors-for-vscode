@@ -6,6 +6,12 @@
 - Ravenclaw light theme
 - Bash/Shell language
 
+## [0.8.4] - 2018-12-07
+
+- darken slightly tab.inactiveBackground and tab.border to natch hogwarts dark contrast
+- set tab.inactiveBackground to a lighter color
+- remove screenshot for Gryffindor Light theme while the theme is disabled
+
 ## [0.8.3] - 2018-11-30
 
 - update debug toolbar background color for all themes
