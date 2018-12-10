@@ -6,6 +6,10 @@
 - Ravenclaw light theme
 - Bash/Shell language
 
+## [0.8.5] - 2018-12-09
+
+- Added focusBorder colors
+
 ## [0.8.4] - 2018-12-07
 
 - darken slightly tab.inactiveBackground and tab.border to natch hogwarts dark contrast
