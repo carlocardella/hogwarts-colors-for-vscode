@@ -17,16 +17,19 @@ Slitheryn Dark:
     ✔ enable tab.activeModifiedBorder @done(18-11-28 08:06)
     ✔ color the debug floating bar @done(18-12-01 10:01)
     ✔ tab.border @done(18-12-01 10:01)
-
+    ✔ 9741498 Hogwarts Dark: fix constant.language.powershell color, (e.g. ), make it consistent with the $ sign @done(18-12-21 20:56)
+    
 Hufflepuff Dark:
     ✔ enable tab.activeModifiedBorder @done(18-11-29 06:10)
     ✔ color the debug floating bar @done(18-12-01 10:01)
     ✔ tab.border @done(18-11-29 06:13)
-
+    ✔ 9741498 Hogwarts Dark: fix constant.language.powershell color, (e.g. ), make it consistent with the $ sign @done(18-12-21 20:56)
+    
 Ravenclaw Dark:
     ✔ enable tab.activeModifiedBorder @done(18-11-29 06:06)
     ✔ color the debug floating bar @done(18-12-01 10:01)
     ✔ tab.border @done(18-12-01 10:01)
+    ✔ 9741498 Hogwarts Dark: fix constant.language.powershell color, (e.g. ), make it consistent with the $ sign @done(18-12-21 20:56)
 
 Gryffindor Light:
 

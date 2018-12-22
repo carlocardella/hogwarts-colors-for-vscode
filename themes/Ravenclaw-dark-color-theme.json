@@ -110,7 +110,9 @@
                 "entity.other.attribute-name",
                 "meta.function-call.c",
                 "punctuation.definition.variable.ruby",
-                "punctuation.definition.variable.perl"
+                "punctuation.definition.variable.perl",
+                "constant.language.powershell",
+                "punctuation.definition.variable.powershell"
             ],
             "settings": {
                 "foreground": "#F0B600"

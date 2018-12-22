@@ -82,7 +82,6 @@
 		{
 			"scope": [
 				"variable",
-				"constant.language.powershell",
 				"entity.other.attribute-name",
 				"keyword.other.variable.definition.powershell",
 				"meta.function-call.c",
@@ -90,7 +89,8 @@
 				"punctuation.definition.variable.powershell",
 				"punctuation.definition.variable.ruby",
 				"support.constant.automatic.powershell",
-				"support.type.property-name.json"
+				"support.type.property-name.json",
+				"constant.language.powershell"
 			],
 			"settings": {
 				"foreground": "#F0B600"
