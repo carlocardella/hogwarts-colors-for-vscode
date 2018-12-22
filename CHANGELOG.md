@@ -5,6 +5,9 @@
 - Hufflepuff light theme
 - Ravenclaw light theme
 - Bash/Shell language
+## [0.8.6] - 2018-12-21
+
+- Update punctuation.definition.variable.powershell and constant.language.powershell $ sign to match the variable color
 
 ## [0.8.5] - 2018-12-09
 
