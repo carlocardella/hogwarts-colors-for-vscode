@@ -5,6 +5,11 @@
 - Hufflepuff light theme
 - Ravenclaw light theme
 - Bash/Shell language
+
+## [0.8.7] - 2019-01-05
+
+- Update keyword.operator.assignment.powershell, make the '-' sign in front of a parameter name in powershell (e.g. Get-Process -Name) the sane color as the variable name
+
 ## [0.8.6] - 2018-12-21
 
 - Update punctuation.definition.variable.powershell and constant.language.powershell $ sign to match the variable color

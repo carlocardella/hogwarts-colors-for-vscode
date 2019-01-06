@@ -116,6 +116,13 @@
             }
         },
         {
+            "scope": "keyword.operator.assignment.powershell",
+            "settings": {
+                "foreground": "#b394f8",
+            }
+
+        },
+        {
             "scope": [
                 "storage",
                 "entity.name.function.coffee"

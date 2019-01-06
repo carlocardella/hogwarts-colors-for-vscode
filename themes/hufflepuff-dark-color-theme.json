@@ -157,6 +157,13 @@
             }
         },
         {
+            "scope": "keyword.operator.assignment.powershell",
+            "settings": {
+                "foreground": "#b394f8",
+            }
+
+        },
+        {
             "scope": [
                 "meta",
                 "string.quoted.double.json",

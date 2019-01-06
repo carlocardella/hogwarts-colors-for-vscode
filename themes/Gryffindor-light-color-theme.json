@@ -76,6 +76,13 @@
             }
         },
         {
+            "scope": "keyword.operator.assignment.powershell",
+            "settings": {
+                "foreground": "#218d4e",
+            }
+
+        },
+        {
             "scope": [
                 "constant",
                 "source.cs entity.name",
