@@ -11,8 +11,6 @@
 Visual Studio theme colors inspired by Harry Potter, Hogwarts and Hogwarts Houses colors and banners.
 Check the "screenshot" folder for samples of all themes in a number of different languages, feel free to contribute and add yours
 
-_Note: this themes family is still work in progress, please expect changes, even extensive ones till the first major release (e.g. 1.0.0)_
-
 ### Installing
 
 This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=CarloCardella.hogwarts-colors-dark)
@@ -39,20 +37,14 @@ If you are using VSCode version 1.12+ you can customize the colors to your likin
     - [Colours or Pottermore](https://images.ctfassets.net/bxd3o8b291gf/1o1zcpziH6uukemigE4yCa/b6895a88989fc821a23a58eac8b123ec/ColoursofPottermore_03.jpg?w=1330)
 - [damngoodshindig.com](http://damngoodshindig.com/2016/11/03/printable-hogwarts-house-crests/) for the Hogwarts and House crests
 
-## Workbench 
+## Workbench
 
 Hogwarts Dark
 
 ![Dark workbench](screenshots/howarts-dark-workbench.png)
 
-Hogwarts Light
-![Light](screenshots/hogwarts-light-workbench.png)
-
 Gryffindor Dark
 ![Gryffindor Dark](screenshots/gryffindor-dark-workbench.png)
-
-<!-- Gryffindor Light -->
-<!-- ![Gryffindor Light](screenshots/gryffindor-light-workbench.png) -->
 
 Slythering Dark
 ![Slytherin Dark](screenshots/slytherin-dark-workbench.png)
@@ -69,38 +61,38 @@ C#
 
 ![C#](screenshots/hogwarts-dark-CSharp.png)
 
-Javascript 
+Javascript
 
 ![Javascript](screenshots/hogwarts-dark-javascript.png)
 
-JSon 
+JSon
 
 ![Json](screenshots/hogwarts-dark-json.png)
 
-Markdown 
+Markdown
 
 ![Markdown](screenshots/hogwarts-dark-markdown.png)
 
-Perl 
+Perl
 
 ![Perl](screenshots/hogwarts-dark-perl.png)
 
-Php 
+Php
 
 ![Php](screenshots/hogwarts-dark-php.png)
 
-Powershell 
+Powershell
 
 ![Powershell](screenshots/hogwarts-dark-powershell.png)
 
-Python 
+Python
 
 ![Python](screenshots/hogwarts-dark-python.png)
 
-Ruby 
+Ruby
 
 ![Ruby](screenshots/hogwarts-dark-ruby.png)
 
-Xml 
+Xml
 
 ![Xml](screenshots/hogwarts-dark-xml.png)
