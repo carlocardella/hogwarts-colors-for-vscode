@@ -37,7 +37,8 @@
     "Themes"
   ],
   "contributes": {
-    "themes": [{
+    "themes": [
+      {
         "label": "Hogwarts colors dark",
         "uiTheme": "vs-dark",
         "path": "./themes/Hogwarts-colors-dark-color-theme.json"
@@ -63,5 +64,8 @@
         "path": "./themes/Ravenclaw-dark-color-theme.json"
       }
     ]
+  },
+  "dependencies": {
+    "vsce": "^1.62.0"
   }
 }
