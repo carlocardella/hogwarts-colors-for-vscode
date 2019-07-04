@@ -2,9 +2,9 @@
   "name": "hogwarts-colors-dark",
   "displayName": "Hogwarts colors for VSCode",
   "description": "VSCode color themes based on the four Hogwarts houses",
-  "version": "0.8.7",
+  "version": "1.0.0",
   "publisher": "CarloCardella",
-  "preview": true,
+  "preview": false,
   "icon": "hogwards_crest.png",
   "galleryBanner": {
     "color": "#222326",
@@ -43,11 +43,6 @@
         "path": "./themes/Hogwarts-colors-dark-color-theme.json"
       },
       {
-        "label": "Hogwarts colors light",
-        "uiTheme": "vs",
-        "path": "./themes/Hogwarts-colors-light-color-theme.json"
-      },
-      {
         "label": "Gryffindor dark",
         "uiTheme": "vs-dark",
         "path": "./themes/Gryffindor-dark-color-theme.json"
@@ -68,5 +63,8 @@
         "path": "./themes/Ravenclaw-dark-color-theme.json"
       }
     ]
+  },
+  "dependencies": {
+    "vsce": "^1.62.0"
   }
 }

@@ -1,10 +1,16 @@
 ## [Unreleased]
 
+- Hogwarts light theme
 - Gryffindor light theme
 - Slytherin light theme
 - Hufflepuff light theme
 - Ravenclaw light theme
 - Bash/Shell language
+
+## [1.0.0] - 2019-05-31
+
+- Removed light themes: they did not look right, colors and contrast was not good enough for a full release. I'll try to add them back to the package upon request
+
 
 ## [0.8.7] - 2019-01-05
 
