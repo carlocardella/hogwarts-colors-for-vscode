@@ -1,6 +1,7 @@
 {
 	"name": "hogwarts-colors-dark",
 	"type": "dark",
+	"semanticHighlighting": true,
 	"colors": {
 		"activityBar.background": "#222326",
 		"activityBarBadge.background": "#BD2A1B",
