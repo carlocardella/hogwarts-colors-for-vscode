@@ -1,5 +1,7 @@
 All:
     ☐ update the notification background color seen on mouse down
+    ☐ invert active tab and unsaved tab border colors (use bottom green for active tab, top red for unsaved tab)
+    ☐ 
 
 Hogwarts Dark:
     ✔ tab.activeModifiedBorder does not work properly? the top border is not colored as expected @done(18-11-24 21:33)
