@@ -6,3 +6,4 @@ fileTypes/*
 palette.css
 screenshots/*
 vsc-extension-quickstart.md
+node_modules/**
