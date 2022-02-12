@@ -5,11 +5,29 @@
     "editor.formatOnSave": true,
 
     "workbench.colorCustomizations": {
-
+        "activityBar.activeBackground": "#4574c9",
+        "activityBar.activeBorder": "#e29cb5",
+        "activityBar.background": "#4574c9",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#e29cb5",
+        "activityBarBadge.foreground": "#15202b",
+        "sash.hoverBorder": "#4574c9",
+        "statusBar.background": "#315caa",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#4574c9",
+        "statusBarItem.remoteBackground": "#315caa",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "tab.activeBorder": "#4574c9",
+        "titleBar.activeBackground": "#315caa",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#315caa99",
+        "titleBar.inactiveForeground": "#e7e7e799"
     },
 
 
     "editor.tokenColorCustomizations": {},
 
     "python.pythonPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python36_64\\python.exe",
+    "peacock.color": "#315caa",
 }
