@@ -7,6 +7,12 @@
 - Ravenclaw light theme
 - Bash/Shell language
 
+## [1.0.2] - 2022-02-12
+
+### Changed
+
+* Updated Node modules
+
 ## [1.0.0] - 2019-05-31
 
 - Removed light themes: they did not look right, colors and contrast was not good enough for a full release. I'll try to add them back to the package upon request
