@@ -21,7 +21,8 @@
         "titleBar.activeBackground": "#313869",
         "titleBar.activeForeground": "#e7e7e7",
         "titleBar.inactiveBackground": "#31386999",
-        "titleBar.inactiveForeground": "#e7e7e799"
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "commandCenter.border": "#e7e7e799"
     },
     "editor.tokenColorCustomizations": {},
     "python.pythonPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python36_64\\python.exe",
